@@ -7,203 +7,109 @@ using UnityEngine.SceneManagement;
 public class MenuDeOpciones : MonoBehaviour
 {
     public GameController gameController;
-    // tiempo de la partida
-    float tiempoDePartida = 0.0f;
 
-    public static MenuDeOpciones Instance;  // Instancia estática del Singleton
+    float tiempoDePartida = 0.0f;
+    public static MenuDeOpciones Instance;
 
     public GameObject canvasAjustes;
-    public GameObject canvasOpciones;
+    [SerializeField] GameObject canvasPlay;
+    [SerializeField] GameObject canvasGanar;
+    [SerializeField] GameObject canvasPerder;
 
+    [SerializeField] TextMeshProUGUI tiempopartida;
 
-    // BASICO
-    [SerializeField]
-    GameObject canvasPlay;
-
-
-    [SerializeField]
-    GameObject canvasGanar;
-    [SerializeField]
-    GameObject canvasPerder;
-
-
-    // texto de minutos ganar
-    [SerializeField]
-    TextMeshProUGUI tiempoganar;
-    [SerializeField]
-    TextMeshProUGUI tiempoperder;
-    [SerializeField]
-    TextMeshProUGUI tiempopartida;
     bool isPause;
+    float tiempoRestante = 420f; // 7 minutos en segundos
+    bool partidaEnCurso = true;
 
-
-    
     void Awake()
     {
-        // Comprobar si la instancia es nula (significa que es la primera vez que se crea)
         if (Instance == null)
         {
-
             Instance = this;
-
-            //DontDestroyOnLoad(gameObject);  // Si quieres que el objeto no se destruya al cambiar de escena
         }
         else
         {
-            Destroy(gameObject);  // Si ya existe una instancia, destruimos el nuevo objeto
+            Destroy(gameObject);
         }
-
-        gameController.ResetearPuntos();
-
     }
-
-
-
 
     void Start()
     {
-
         Time.timeScale = 1;
-
-
-
-
+        partidaEnCurso = true;
     }
 
-    // Update is called once per frame
     void Update()
     {
+        if (partidaEnCurso)
+        {
+            tiempoDePartida += Time.unscaledDeltaTime; // Usamos tiempo independiente de la escala
+            tiempoRestante -= Time.unscaledDeltaTime;
 
-        tiempoDePartida = tiempoDePartida + Time.deltaTime;
+            if (tiempoRestante <= 0)
+            {
+                tiempoRestante = 0;
+                FinalizarPartida();
+            }
 
+            ActualizarTiempoUI();
+        }
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            // Cambiamos el estado de la pausa
-            isPause = !isPause;
-
-            if (isPause)
-            {
-                // Activamos el estado de pausa
-                Time.timeScale = 0; // Pausa el juego
-
-                // Activamos el Canvas de opciones
-                canvasOpciones.SetActive(true);
-
-                // Animación para mostrar el Canvas de opciones
-                LeanTween.alphaCanvas(canvasOpciones.GetComponent<CanvasGroup>(), 1, 0.5f).setIgnoreTimeScale(true);
-            }
-            else
-            {
-                // Desactivamos el estado de pausa
-                Time.timeScale = 1; // Reanuda el juego
-
-                // Animación para desvanecer el Canvas de opciones
-                LeanTween.alphaCanvas(canvasOpciones.GetComponent<CanvasGroup>(), 0, 0.5f).setOnComplete(() =>
-                {
-                    // Desactivamos el Canvas de opciones después de la animación
-                    canvasOpciones.SetActive(false);
-                }).setIgnoreTimeScale(true);
-            }
-
-
-
+            AlternarPausa();
         }
-
-
-
-        float minutos = Mathf.FloorToInt(tiempoDePartida / 60F);
-        float segundos = Mathf.FloorToInt(tiempoDePartida % 60F);
-        tiempopartida.text = string.Format("{0:00}:{1:00}", minutos, segundos);
-        tiempoganar.text = string.Format("{0:00}:{1:00}", minutos, segundos);
-        tiempoperder.text = string.Format("{0:00}:{1:00}", minutos, segundos);
-
-        // tiempopartida.text = tiempoDePartida.ToString();
-        //tiempoganar.text = string.Format("{0:00}:{1:00}", minutos, segundos);
-
-
-
-
-
-
     }
 
+    void ActualizarTiempoUI()
+    {
+        float minutos = Mathf.FloorToInt(tiempoRestante / 60F);
+        float segundos = Mathf.FloorToInt(tiempoRestante % 60F);
+        tiempopartida.text = string.Format("{0:00}:{1:00}", minutos, segundos);
+    }
 
+    void FinalizarPartida()
+    {
+        partidaEnCurso = false;
+        Time.timeScale = 0; // Pausar el juego
+        canvasPerder.SetActive(true);
+    }
+
+    void AlternarPausa()
+    {
+        isPause = !isPause;
+        Time.timeScale = isPause ? 0 : 1;
+        canvasAjustes.SetActive(isPause);
+
+        if (isPause)
+        {
+            LeanTween.alphaCanvas(canvasAjustes.GetComponent<CanvasGroup>(), 1, 0.5f).setIgnoreTimeScale(true);
+        }
+        else
+        {
+            LeanTween.alphaCanvas(canvasAjustes.GetComponent<CanvasGroup>(), 0, 0.5f).setOnComplete(() =>
+            {
+                canvasAjustes.SetActive(false);
+            }).setIgnoreTimeScale(true);
+        }
+    }
 
     public void BotonPlay()
     {
-
-        canvasOpciones.SetActive(false);
+        canvasAjustes.SetActive(false);
         Time.timeScale = 1;
-        float minutos = Mathf.FloorToInt(tiempoDePartida / 60F);
-        float segundos = Mathf.FloorToInt(tiempoDePartida % 60F);
-        tiempopartida.text = string.Format("{0:00}:{1:00}", minutos, segundos);
-        tiempopartida.text = tiempoDePartida.ToString();
-
-
-    }
-
-
-
-
-    public void BotonAjustes()
-    {
-        // Detener el tiempo del juego
-        Time.timeScale = 0;
-
-        // Animación para desvanecer el canvasOpciones
-        LeanTween.alphaCanvas(canvasOpciones.GetComponent<CanvasGroup>(), 0, 0.5f).setOnComplete(() =>
-        {
-            canvasOpciones.SetActive(false); // Desactivamos después de la animación
-        }).setIgnoreTimeScale(true); // Ignora la escala del tiempo
-
-        // Activamos canvasAjustes y animamos la opacidad
-        canvasAjustes.SetActive(true);
-        LeanTween.alphaCanvas(canvasAjustes.GetComponent<CanvasGroup>(), 1, 0.5f).setIgnoreTimeScale(true); // 0.5 segundos para animar
     }
 
     public void BotonSalir()
     {
-        // Detener el tiempo del juego
         Time.timeScale = 0;
-
-        // Animación para desvanecer el canvasAjustes
-        LeanTween.alphaCanvas(canvasAjustes.GetComponent<CanvasGroup>(), 0, 0.5f).setOnComplete(() =>
-        {
-            canvasAjustes.SetActive(false); // Desactivamos después de la animación
-        }).setIgnoreTimeScale(true); // Ignora la escala del tiempo
-
-        // Activamos canvasOpciones y animamos la opacidad
-        canvasOpciones.SetActive(true);
-        LeanTween.alphaCanvas(canvasOpciones.GetComponent<CanvasGroup>(), 1, 0.5f).setIgnoreTimeScale(true); // 0.5 segundos para animar
+        canvasAjustes.SetActive(true);
+        LeanTween.alphaCanvas(canvasAjustes.GetComponent<CanvasGroup>(), 1, 0.5f).setIgnoreTimeScale(true);
     }
+
     public void Exit()
     {
         Application.Quit();
     }
-
-    public void CanvasGanador()
-    {
-
-        tiempopartida.text = tiempoganar.text;
-
-        canvasGanar.SetActive(true);
-        LeanTween.alphaCanvas(canvasAjustes.GetComponent<CanvasGroup>(), 1, 0.5f).setIgnoreTimeScale(true); // 0.5 segundos para animar
-                                                                                                            //  float minutos = Mathf.FloorToInt(tiempoDePartida / 60F);
-                                                                                                            //float segundos = Mathf.FloorToInt(tiempoDePartida % 60F);
-                                                                                                            // tiempoganar.text = string.Format("{0:00}:{1:00}", minutos, segundos);
-        Time.timeScale = 0;
-        // tiempoganar.text = tiempoDePartida.ToString();
-        //Time.timeScale = 0;
-        // float minutos = Mathf.FloorToInt(tiempoDePartida / 60F);
-        //  float segundos = Mathf.FloorToInt(tiempoDePartida % 60F);
-        //tiempoganar.text = string.Format("{0:00}:{1:00}", minutos, segundos);
-        //Time.timeScale = 0;
-
-
-
-    }
-
-
-   
 }

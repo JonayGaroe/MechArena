@@ -1,0 +1,65 @@
+{
+    "name": "MovimientoInput",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "8ee77c78-1081-497f-aad2-11e4ec65a8be",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "216c09f5-a956-4989-8592-5cfed98c90c9",
+                    "expectedControlType": "Double",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "New action1",
+                    "type": "Button",
+                    "id": "95f81a7e-608a-4cee-9016-22661d1265b1",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "95ed1320-9ac6-4ab6-b1a6-9ef3988e46bc",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "eed86c2d-f081-41b1-bca4-2e933b7d7cf1",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "05851a97-7730-4416-af4d-83c01575eb0b",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

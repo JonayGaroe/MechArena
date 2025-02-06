@@ -5,56 +5,47 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public float rotationSpeed = 10f;
-    public GameObject bulletPrefab;
-    public Transform firePoint;
-    public float bulletSpeed = 10f;
-
-    private Rigidbody rb;
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody>();
-    }
+    public Transform cameraTransform;
+    public float rotationSpeed = 100f;
 
     void Update()
     {
-        MovePlayer();
-        RotatePlayer();
-        Shoot();
-    }
+        Vector3 forward = cameraTransform.forward;
+        Vector3 right = cameraTransform.right;
+        forward.y = 0;
+        right.y = 0;
+        forward.Normalize();
+        right.Normalize();
 
-    void MovePlayer()
-    {
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
+        Vector3 moveDirection = Vector3.zero;
 
-        Vector3 moveDirection = new Vector3(moveX, 0, moveZ).normalized;
-        rb.velocity = moveDirection * moveSpeed;
-    }
-
-    void RotatePlayer()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if (Physics.Raycast(ray, out RaycastHit hit))
+        if (Input.GetKey(KeyCode.W))
         {
-            Vector3 lookDirection = hit.point - transform.position;
-            lookDirection.y = 0;
-            Quaternion targetRotation = Quaternion.LookRotation(lookDirection);
-            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            moveDirection += forward;
         }
-    }
-
-    void Shoot()
-    {
-        if (Input.GetMouseButtonDown(0)) // Botón izquierdo del mouse
+        if (Input.GetKey(KeyCode.S))
         {
-            GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-            Rigidbody bulletRb = bullet.GetComponent<Rigidbody>();
-            bulletRb.velocity = firePoint.forward * bulletSpeed;
-            Destroy(bullet, 3f); // Destruir la bala después de 3 segundos
+            moveDirection -= forward;
         }
+        if (Input.GetKey(KeyCode.A))
+        {
+            moveDirection -= right;
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            moveDirection += right;
+        }
+
+        transform.position += moveDirection.normalized * moveSpeed * Time.deltaTime;
+
+        // Rotación con el ratón
+        float mouseX = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
+        transform.Rotate(0, mouseX, 0);
     }
 }
+
+
+   
+
 
 

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuDeOpciones : MonoBehaviour
 {
-    public GameController gameController;
+    //public GameController gameController; no esta detectando un archivo con este nombre por eso te da error quiere decir que no tienes un archivo con este nombre en tu project
 
     float tiempoDePartida = 0.0f;
     public static MenuDeOpciones Instance;

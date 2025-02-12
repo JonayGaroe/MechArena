@@ -5,6 +5,8 @@ using UnityEngine;
 public class EstadoPatrulla : MonoBehaviour
 {
 
+    public Color colorEstado = Color.green;
+
     public Transform[] wayPoint;    
 
     private ControladorNavMesh controladorNavMesh;
@@ -33,17 +35,17 @@ public class EstadoPatrulla : MonoBehaviour
     void Update()
     {
         
-        RaycastHit hit;
-        if(controladorVision.PuedeVerAlJugador(out hit))
-        {
+            RaycastHit hit;
+            if(controladorVision.PuedeVerAlJugador(out hit))
+            {
 
-            controladorNavMesh.perseguirObjetivo = hit.transform;
+                controladorNavMesh.perseguirObjetivo = hit.transform;
 
-            maquinadeEstados.ActivarEstado(maquinadeEstados.EstadoPersecuion);
+                maquinadeEstados.ActivarEstado(maquinadeEstados.EstadoPersecuion);
 
-            return;
+                return;
                     
-        }   
+            }   
 
 
 
@@ -66,6 +68,7 @@ public class EstadoPatrulla : MonoBehaviour
 
     private void OnEnable()
     {
+        maquinadeEstados.meshrendererIndicador.material.color = colorEstado;
 
         //siguientewayPoint = 0;
         ActualizaWayPointDestino();
@@ -90,7 +93,7 @@ public class EstadoPatrulla : MonoBehaviour
     {
         
 
-        if(other.gameObject.CompareTag("Player"))
+        if(other.gameObject.CompareTag("Player") && enabled)
         {
 
 

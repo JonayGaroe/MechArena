@@ -13,6 +13,7 @@ public class MaquinaDeEstado : MonoBehaviour
 
     private MonoBehaviour estadoActual;
 
+    public MeshRenderer meshrendererIndicador;
 
     // Start is called before the first frame update
     void Start()

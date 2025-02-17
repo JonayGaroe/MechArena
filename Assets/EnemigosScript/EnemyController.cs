@@ -6,6 +6,9 @@ using TMPro;
 public class EnemyController : MonoBehaviour
 {
 
+    public GameObject efectoExplosion; // Prefab del efecto de explosión
+
+
     // bool para los enemigos
     bool broken = true;
 
@@ -65,9 +68,11 @@ public class EnemyController : MonoBehaviour
         {
 
             EnemiesContainers.instance.RemoveEnemie();
-
+            GameObject explosion = Instantiate(efectoExplosion, transform.position, Quaternion.identity);
+            Destroy(explosion, 2f); // Destruye la explosión después de 2 segundos
 
             Destroy(gameObject);
+            Destroy(other.gameObject);  
 
             GameController.instance.AgregarPuntos(puntos); // Añadir puntos al controlador de puntuación
 

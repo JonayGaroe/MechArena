@@ -15735,6 +15735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227d422be82d4094da300f271fe56cc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  efectoExplosion: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
   canvasPerder: {fileID: 923312677}
   puntos: 2
   enemieFix: {fileID: 1926883987}
@@ -21541,6 +21542,10 @@ PrefabInstance:
       propertyPath: animator
       value: 
       objectReference: {fileID: 1986566618}
+    - target: {fileID: 7657433909209585956, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: efectoDisparo
+      value: 
+      objectReference: {fileID: 1000010823978654, guid: 3228a22491941734bb83ad691d17fcb9, type: 3}
     - target: {fileID: 9087828964482830534, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: m_IsTrigger
       value: 1

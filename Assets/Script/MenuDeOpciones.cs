@@ -6,8 +6,6 @@ using UnityEngine.SceneManagement;
 
 public class MenuDeOpciones : MonoBehaviour
 {
-    //public GameController gameController; no esta detectando un archivo con este nombre por eso te da error quiere decir que no tienes un archivo con este nombre en tu project
-
     float tiempoDePartida = 0.0f;
     public static MenuDeOpciones Instance;
 
@@ -17,6 +15,8 @@ public class MenuDeOpciones : MonoBehaviour
     [SerializeField] GameObject canvasPerder;
 
     [SerializeField] TextMeshProUGUI tiempopartida;
+
+
 
     bool isPause;
     float tiempoRestante = 420f; // 7 minutos en segundos
@@ -111,5 +111,22 @@ public class MenuDeOpciones : MonoBehaviour
     public void Exit()
     {
         Application.Quit();
+    }
+
+    // NUEVO: Método para ganar la partida
+    public void GanarPartida()
+    {
+        if (!partidaEnCurso) return;
+
+        partidaEnCurso = false;
+        Time.timeScale = 0; // Pausar el juego
+        canvasGanar.SetActive(true); // Muestra el Canvas de Ganar
+
+        // Calcular puntos extra por tiempo restante
+        int segundosRestantes = Mathf.FloorToInt(tiempoRestante);
+        int puntosExtra = segundosRestantes * 10;
+
+        // Agregar los puntos extra usando GameController
+        GameController.instance.AgregarPuntos(puntosExtra);
     }
 }

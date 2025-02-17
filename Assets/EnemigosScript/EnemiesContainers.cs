@@ -9,8 +9,11 @@ public class EnemiesContainers : MonoBehaviour
 
     public static EnemiesContainers instance { get; private set; }
     public int enemigosBroken;
+    public int enemyFix;
     [SerializeField]
     TextMeshProUGUI textoBroken;
+    [SerializeField]
+    public TextMeshProUGUI textoFix;
     //public int enemigosBrokencount;
 
 
@@ -28,7 +31,7 @@ public class EnemiesContainers : MonoBehaviour
     {
 
         enemigosBroken = 0;
-
+        enemyFix = 0;
         
 
     }
@@ -37,8 +40,15 @@ public class EnemiesContainers : MonoBehaviour
     void Update()
     {
         
+        if (enemigosBroken <= enemyFix)
+        {
 
 
+            MenuDeOpciones.Instance.GanarPartida();
+
+
+
+        }
 
 
 
@@ -59,9 +69,16 @@ public class EnemiesContainers : MonoBehaviour
 
     public void RemoveEnemie()
     {
+        enemyFix = enemyFix + 1;
+        Debug.Log("+1 de 3");
+        textoFix.text = enemyFix.ToString();
 
 
     }
+
+
+
+    
 
     void OnTriggerEnter2D(Collider2D other)
     {

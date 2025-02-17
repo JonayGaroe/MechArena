@@ -12,11 +12,14 @@ public class EnemyController : MonoBehaviour
     // ANIMATOR
     Animator animator;
 
+    public GameObject canvasPerder; // Arrastra tu Canvas aquí en el Inspector
 
 
-   
+    public int puntos = 2; // Puntos que otorga este enemigo cuando es destruido
 
-  //  public ParticleSystem smokeEffect;
+
+
+    //  public ParticleSystem smokeEffect;
     // Private variables
     [SerializeField]
     TextMeshProUGUI enemieFix;
@@ -39,20 +42,67 @@ public class EnemyController : MonoBehaviour
 
     }
 
+    public void SumarPuntos(int cantidad)
+    {
+       
 
-    
+        puntos += cantidad;
 
 
-   
+
+
+
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+
+
+
+
+        if (other.gameObject.CompareTag("BalaFx"))
+        {
+
+            EnemiesContainers.instance.RemoveEnemie();
+
+
+            Destroy(gameObject);
+
+            GameController.instance.AgregarPuntos(puntos); // Añadir puntos al controlador de puntuación
+
+
+
+
+
+
+
+        }
+
+        /*
+
+        if (other.CompareTag("Player")) // Asegúrate de que tu jugador tiene el Tag "Player"
+        {
+            canvasPerder.SetActive(true); // Activa el Canvas de perder
+            Time.timeScale = 0; // Opcional: Pausa el juego
+        }
+
+        */
+
+
+    }
+
+
+
+
 
 }
 
 
+    //para que se pare la musica
+    //   AudioSource audioSource = GetComponent<AudioSource>();
 
-//para que se pare la musica
-//   AudioSource audioSource = GetComponent<AudioSource>();
-
-//if (audioSource != null && audioSource.isPlaying)
-//  {
-//   audioSource.Stop();
-// }
+    //if (audioSource != null && audioSource.isPlaying)
+    //  {
+    //   audioSource.Stop();
+    // }

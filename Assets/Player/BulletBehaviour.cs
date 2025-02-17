@@ -5,31 +5,44 @@ using UnityEngine;
 public class BulletBehaviour : MonoBehaviour
 {
 
-    public float lifeTime = 2f; // Tiempo antes de regresar al pool
     public float speed = 20f;
+    public float lifetime = 2f;
 
-    void OnEnable()
+    private Animator animator; // Referencia al Animator
+
+    private void Awake()
     {
-        Invoke("ReturnToPool", lifeTime);
+        animator = GetComponent<Animator>(); // Obtiene el Animator del objeto
     }
 
-    void FixedUpdate()
+    private void OnEnable()
     {
-        transform.Translate(Vector3.forward * speed * Time.deltaTime);
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Enemy"))
+        if (animator != null)
         {
-            ReturnToPool();
+            animator.Play("BulletShoot", 0, 0); // Reproduce directamente la animación
+            Debug.Log("?? Animación de la bala activada con Play()");
         }
+
+        Invoke(nameof(Deactivate), lifetime);
     }
 
-    void ReturnToPool()
+    private void Update()
+    {
+        transform.Translate(-Vector3.forward * speed * Time.deltaTime);
+    }
+
+    private void Deactivate()
+    {
+        GenericPool.Instance.ReturnBullet(this.gameObject); // Devuelve la bala al pool
+    }
+
+    private void OnDisable()
     {
         CancelInvoke();
-        GenericPool.instance.ReturnProjectile(gameObject);
+        if (animator != null)
+        {
+            animator.Rebind(); // Resetea la animación cuando la bala vuelve al pool
+        }
     }
 
 

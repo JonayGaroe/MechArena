@@ -4,46 +4,52 @@ using UnityEngine;
 
 public class GenericPool : MonoBehaviour
 {
-    public static GenericPool instance;
-    public GameObject projectilePrefab;
-    public int poolSize = 10;
+    public static GenericPool Instance;
 
-    private Queue<GameObject> projectilePool = new Queue<GameObject>();
+    public GameObject bulletPrefab;
+    public int poolSize = 20;
 
-    void Awake()
+    private Queue<GameObject> bulletQueue = new Queue<GameObject>();
+
+    private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
+        Instance = this;
+        InitializePool();
     }
 
-    void Start()
+    private void InitializePool()
     {
-        // Crear los 10 proyectiles y desactivarlos
         for (int i = 0; i < poolSize; i++)
         {
-            GameObject proj = Instantiate(projectilePrefab);
-            proj.SetActive(false);
-            projectilePool.Enqueue(proj);
+            GameObject bullet = Instantiate(bulletPrefab);
+            bullet.SetActive(false);
+            bulletQueue.Enqueue(bullet);
         }
     }
 
-    public GameObject GetProjectile()
+    public GameObject GetBullet(Vector3 position, Quaternion rotation)
     {
-        if (projectilePool.Count > 0)
+        GameObject bullet;
+
+        if (bulletQueue.Count > 0)
         {
-            GameObject proj = projectilePool.Dequeue();
-            proj.SetActive(true);
-            return proj;
+            bullet = bulletQueue.Dequeue();
         }
-        return null;
+        else
+        {
+            bullet = Instantiate(bulletPrefab); // Si el pool está vacío, crea más balas
+        }
+
+        bullet.transform.position = position;
+        bullet.transform.rotation = rotation;
+        bullet.SetActive(true);
+        return bullet;
     }
 
-    public void ReturnProjectile(GameObject proj)
+    public void ReturnBullet(GameObject bullet)
     {
-        proj.SetActive(false);
-        projectilePool.Enqueue(proj);
+        bullet.SetActive(false);
+        bulletQueue.Enqueue(bullet); // Se devuelve al pool correctamente
     }
 }
 

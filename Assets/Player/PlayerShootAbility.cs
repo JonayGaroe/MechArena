@@ -4,53 +4,43 @@ using UnityEngine;
 
 public class PlayerShootAbility : MonoBehaviour
 {
+    public Transform leftCannon;
+    public Transform rightCannon;
+    public float fireRate = 0.2f;
 
-    public Transform cañonIzquierdo;  // Punto de disparo del cañón izquierdo
-    public Transform cañonDerecho;   // Punto de disparo del cañón derecho
-    public float projectileSpeed = 20f;
-    public float tiempoRecarga = 1f; // Tiempo entre disparos
-    private bool puedeDisparar = true;
+    private float nextFireTime = 0f;
+    private Animator animator; // Referencia al Animator
 
-    public Animator animator; // Referencia a la animación de disparo
-
-    void Update()
+    private void Start()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && puedeDisparar)
+        animator = GetComponent<Animator>(); // Obtiene el Animator del objeto
+    }
+
+    private void Update()
+    {
+        if (Input.GetButton("Fire1") && Time.time >= nextFireTime)
         {
-            StartCoroutine(Disparar());
+            Shoot();
+            nextFireTime = Time.time + fireRate;
         }
     }
 
-    IEnumerator Disparar()
+    private void Shoot()
     {
-        puedeDisparar = false;
+        // Dispara desde ambos cañones
+        GenericPool.Instance.GetBullet(leftCannon.position, leftCannon.rotation * Quaternion.Euler(90, 180, 0));
+        GenericPool.Instance.GetBullet(rightCannon.position, rightCannon.rotation * Quaternion.Euler(90, 180, 0));
 
-        // Activar animación de disparo
+        // Activa la animación de disparo
         if (animator != null)
         {
-            animator.SetTrigger("Disparar");
+            animator.SetTrigger("Shoot1");
+            animator.SetTrigger("Shoot2");
+
         }
-
-        // Obtener proyectiles del pool
-        GameObject proyectilIzq = GenericPool.instance.GetProjectile();
-        GameObject proyectilDer = GenericPool.instance.GetProjectile();
-
-        if (proyectilIzq != null && proyectilDer != null)
+        else
         {
-            // Posicionar los proyectiles en los cañones
-            proyectilIzq.transform.position = cañonIzquierdo.position;
-            proyectilIzq.transform.rotation = cañonIzquierdo.rotation;
-
-            proyectilDer.transform.position = cañonDerecho.position;
-            proyectilDer.transform.rotation = cañonDerecho.rotation;
-
-            // Asegurar que los proyectiles disparan hacia adelante
-            proyectilIzq.GetComponent<Rigidbody>().velocity = cañonIzquierdo.transform.forward * projectileSpeed;
-            proyectilDer.GetComponent<Rigidbody>().velocity = cañonDerecho.transform.forward * projectileSpeed;
+            Debug.LogWarning("?? No se encontró el Animator en el objeto.");
         }
-
-        // Esperar el tiempo de recarga antes de permitir otro disparo
-        yield return new WaitForSeconds(tiempoRecarga);
-        puedeDisparar = true;
     }
 }

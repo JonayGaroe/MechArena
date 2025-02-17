@@ -11065,6 +11065,11 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.042885613, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456115, y: 0.22395204, z: -0.0000000041909516}
+--- !u!1 &1119792235 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2974661390576649499, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+  m_PrefabInstance: {fileID: 6291552370899101721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1146854498
 GameObject:
   m_ObjectHideFlags: 0
@@ -18471,6 +18476,20 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 6797299428644476314, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
   m_PrefabInstance: {fileID: 6291552370899101721}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1986566627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119792235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffc31a67ad2a204cb91004213e534bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationAngle: 10
+  rotationSpeed: 5
 --- !u!1 &2007133255
 GameObject:
   m_ObjectHideFlags: 0
@@ -20209,7 +20228,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2974661390576649499, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1986566627}
   m_SourcePrefab: {fileID: 100100000, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
 --- !u!23 &6629767033541096443
 MeshRenderer:

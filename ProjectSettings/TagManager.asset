@@ -9,6 +9,7 @@ TagManager:
   - OuterCorner
   - Room
   - BalaFx
+  - Muro
   layers:
   - Default
   - TransparentFX

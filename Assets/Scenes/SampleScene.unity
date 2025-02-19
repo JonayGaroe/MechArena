@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7fc9eed57e59640788958286bcd2683b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -96,7 +96,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: add56f8635888b844b91c713dfa109e7, type: 2}
+  m_LightingDataAsset: {fileID: 112000002, guid: c482561641a25514791bf19c84125d92, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 226e753f767f6f141997f13add06b904, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -544,7 +544,7 @@ Transform:
   m_GameObject: {fileID: 52885122}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.72168124, z: 0, w: 0.6922256}
-  m_LocalPosition: {x: -282.23483, y: 38.230003, z: 43.944767}
+  m_LocalPosition: {x: -442.20483, y: 38.230003, z: 43.944767}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4254,7 +4254,7 @@ Transform:
   m_GameObject: {fileID: 447622770}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.72168124, z: -0, w: 0.6922256}
-  m_LocalPosition: {x: -282.23483, y: 38.230003, z: 43.944767}
+  m_LocalPosition: {x: -442.20483, y: 38.230003, z: 43.944767}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21810,7 +21810,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2451029579613364129, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -275.43
+      value: -435.4
       objectReference: {fileID: 0}
     - target: {fileID: 2451029579613364129, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21852,6 +21852,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: ROBOTAMEDIAS
       objectReference: {fileID: 0}
+    - target: {fileID: 5078631758900530837, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8bd8b6b396742264db990d4ae2ffdb88, type: 2}
+    - target: {fileID: 5163540071963152624, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8bd8b6b396742264db990d4ae2ffdb88, type: 2}
     - target: {fileID: 6797299428644476314, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: m_Enabled
       value: 1

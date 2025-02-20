@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class PlayerShootAbility : MonoBehaviour
 {
@@ -21,12 +22,25 @@ public class PlayerShootAbility : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (Input.GetButton("Fire1") && Time.time >= nextFireTime)
         {
             Shoot();
             nextFireTime = Time.time + fireRate;
         }
+        */
+
+        if (Input.GetButton("Fire1") && Time.time >= nextFireTime && !IsPointerOverUI())
+        {
+            Shoot();
+            nextFireTime = Time.time + fireRate;
+        }
+
+
     }
+
+
+
 
     private void Shoot()
     {
@@ -51,4 +65,22 @@ public class PlayerShootAbility : MonoBehaviour
             animator.SetTrigger("Shoot2");
         }
     }
+
+    private bool IsPointerOverUI()
+    {
+        PointerEventData eventData = new PointerEventData(EventSystem.current)
+        {
+            position = Input.mousePosition
+        };
+
+        var results = new System.Collections.Generic.List<RaycastResult>();
+        EventSystem.current.RaycastAll(eventData, results);
+        return results.Count > 0; // Si hay elementos UI detectados, retorna true
+    }
+
+
+
+
+
+
 }

@@ -10,9 +10,12 @@ public class MenuDeOpciones : MonoBehaviour
     public static MenuDeOpciones Instance;
 
     public GameObject canvasAjustes;
+    public GameObject canvasSetting;
+
     [SerializeField] GameObject canvasPlay;
     [SerializeField] GameObject canvasGanar;
     [SerializeField] GameObject canvasPerder;
+
 
     [SerializeField] TextMeshProUGUI tiempopartida;
 
@@ -36,12 +39,14 @@ public class MenuDeOpciones : MonoBehaviour
 
     void Start()
     {
-        Time.timeScale = 1;
-        partidaEnCurso = true;
+        AlternarPausa();
+        partidaEnCurso = false;
+        canvasAjustes.SetActive(true);
     }
 
     void Update()
     {
+
         if (partidaEnCurso)
         {
             tiempoDePartida += Time.unscaledDeltaTime; // Usamos tiempo independiente de la escala
@@ -93,13 +98,40 @@ public class MenuDeOpciones : MonoBehaviour
                 canvasAjustes.SetActive(false);
             }).setIgnoreTimeScale(true);
         }
+
+        Cursor.visible = isPause;
+
+        Cursor.lockState = isPause ? CursorLockMode.None : CursorLockMode.Locked;
+
+
+
+
     }
 
     public void BotonPlay()
     {
-        canvasAjustes.SetActive(false);
+        partidaEnCurso = true;
         Time.timeScale = 1;
+        canvasAjustes.SetActive(false);
     }
+    public void BotonAjustes()
+    {
+        Time.timeScale = 0;
+        canvasSetting.SetActive(true);
+        canvasAjustes.SetActive(false);
+    }
+
+    public void Menu()
+    {
+
+        canvasSetting.SetActive(false);
+        canvasAjustes.SetActive(true);
+
+
+
+    }
+
+
 
     public void BotonSalir()
     {

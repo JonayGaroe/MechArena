@@ -59,6 +59,7 @@ public class MenuDeOpciones : MonoBehaviour
             }
 
             ActualizarTiempoUI();
+
         }
 
         if (Input.GetKeyDown(KeyCode.Escape))

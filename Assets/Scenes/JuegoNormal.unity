@@ -9771,7 +9771,7 @@ PrefabInstance:
     - target: {fileID: 8890774966862588244, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
       propertyPath: playerInput
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1986566640}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24432,6 +24432,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e087ecce43ebbff45a1b360637807d93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1986566640 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 621091053858629980, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+  m_PrefabInstance: {fileID: 6291552370899101721}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119792235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2007133255
 GameObject:
   m_ObjectHideFlags: 0
@@ -26753,6 +26764,10 @@ PrefabInstance:
       propertyPath: efectoDisparo
       value: 
       objectReference: {fileID: 1000010823978654, guid: 3228a22491941734bb83ad691d17fcb9, type: 3}
+    - target: {fileID: 7657433909209585956, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: trackingStrength
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 7657433909209585956, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: enemyLayer.m_Bits
       value: 128

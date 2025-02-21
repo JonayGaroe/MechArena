@@ -10,6 +10,7 @@ TagManager:
   - Room
   - BalaFx
   - Muro
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -18,7 +19,7 @@ TagManager:
   - Water
   - UI
   - Camera
-  - 
+  - Enemy
   - 
   - 
   - 

@@ -11,7 +11,7 @@ public class GameController : MonoBehaviour
     public TextMeshProUGUI textoMayorPuntuacion;// El texto de la UI donde se mostrará el mayor puntaje
     private int puntosTotales = 0; // Puntaje total del jugador
     private int mayorPuntuacion = 0; // Mayor puntuación registrada
-
+  //  private int puntosPerdidos = 2; 
     private const string MayorPuntuacion = "MayorPuntuacion"; // Clave para almacenar la mayor puntuación en PlayerPrefs
     private const string PuntosGuardado = "Puntos"; // Clave para almacenar los puntos en PlayerPrefs
     private bool puntosDoblesActivos = false; // Si los puntos dobles están activos
@@ -134,6 +134,17 @@ public class GameController : MonoBehaviour
             mayorPuntuacion = 0; // Si no hay mayor puntuación guardada, ponerla en 0
         }
     }
+
+    // Nuevo método para descontar puntos cuando la bala falla
+    public void DescontarPuntos(int puntosPerdidos)
+    {
+        puntosTotales -= puntosPerdidos;
+       // if (puntosTotales < 0) puntosTotales = 0; // Evita valores negativos
+        ActualizarPuntos();
+        GuardarPuntos();
+    }
+
+
 
     // Opcional: Resetear los puntos y la mayor puntuación (por ejemplo, al comenzar una nueva partida)
     public void ResetearPuntos()

@@ -1,14 +1,17 @@
-using System.Collections;
+锘縰sing System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletBehaviour : MonoBehaviour
 {
-
+    public int puntosPerdidos = 2; // Puntos a descontar cuando fallas
+    public GameObject efectoExplosionMuro; // Prefab del efecto de explosi贸n
     public float speed = 20f;
     public float lifetime = 2f;
+    public float trackingStrength = 5f; // Intensidad de seguimiento al enemigo
 
     private Animator animator; // Referencia al Animator
+    private Transform target; // Objetivo de la bala
 
     private void Awake()
     {
@@ -19,16 +22,32 @@ public class BulletBehaviour : MonoBehaviour
     {
         if (animator != null)
         {
-            animator.Play("BulletShoot", 0, 0); // Reproduce directamente la animaci髇
-            Debug.Log("?? Animaci髇 de la bala activada con Play()");
+            animator.Play("BulletShoot", 0, 0); // Reproduce la animaci贸n de disparo
+            Debug.Log("馃幆 Animaci贸n de la bala activada con Play()");
         }
 
         Invoke(nameof(Deactivate), lifetime);
     }
 
+    public void SetTarget(Transform newTarget)
+    {
+        target = newTarget; // Asigna el objetivo al que la bala debe dirigirse
+    }
+
     private void Update()
     {
-        transform.Translate(-Vector3.forward * speed * Time.deltaTime);
+        if (target != null)
+        {
+            // Calcula la direcci贸n hacia el enemigo y mueve la bala hacia 茅l
+            Vector3 direction = (target.position - transform.position).normalized;
+            transform.position += direction * speed * Time.deltaTime;
+            transform.forward = Vector3.Lerp(transform.forward, direction, trackingStrength * Time.deltaTime);
+        }
+        else
+        {
+            // Si no hay objetivo, la bala sigue recto
+            transform.Translate(-Vector3.forward * speed * Time.deltaTime);
+        }
     }
 
     private void Deactivate()
@@ -41,15 +60,18 @@ public class BulletBehaviour : MonoBehaviour
         CancelInvoke();
         if (animator != null)
         {
-            animator.Rebind(); // Resetea la animaci髇 cuando la bala vuelve al pool
+            animator.Rebind(); // Resetea la animaci贸n cuando la bala vuelve al pool
         }
     }
 
-
-
-
-
-
-
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Muro"))
+        {
+            gameObject.SetActive(false);
+            GameController.instance.DescontarPuntos(puntosPerdidos);
+            GameObject explosion = Instantiate(efectoExplosionMuro, transform.position, Quaternion.identity);
+            Destroy(explosion, 2f); // Destruye la explosi贸n despu茅s de 2 segundos
+        }
+    }
 }
-    

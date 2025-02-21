@@ -1,10 +1,14 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Playables;
+
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+
 public class PlayerShootAbility : MonoBehaviour
 {
+
     public Transform leftCannon;
     public Transform rightCannon;
     public float fireRate = 0.2f;
@@ -44,21 +48,21 @@ public class PlayerShootAbility : MonoBehaviour
 
     private void Shoot()
     {
-        // Dispara desde ambos cañones
+        // Dispara desde ambos caÃ±ones
         GenericPool.Instance.GetBullet(leftCannon.position, leftCannon.rotation * Quaternion.Euler(90, 180, 0));
         GenericPool.Instance.GetBullet(rightCannon.position, rightCannon.rotation * Quaternion.Euler(90, 180, 0));
 
-        // Instancia el efecto de disparo en los cañones
+        // Instancia el efecto de disparo en los caÃ±ones
         if (efectoDisparo != null)
         {
             GameObject flash1 = Instantiate(efectoDisparo, leftCannon.position, leftCannon.rotation);
             GameObject flash2 = Instantiate(efectoDisparo, rightCannon.position, rightCannon.rotation);
 
-            Destroy(flash1, 0.2f); // Destruye el efecto después de 0.2 segundos
+            Destroy(flash1, 0.2f); // Destruye el efecto despuÃ©s de 0.2 segundos
             Destroy(flash2, 0.2f);
         }
 
-        // Activa la animación de disparo
+        // Activa la animaciÃ³n de disparo
         if (animator != null)
         {
             animator.SetTrigger("Shoot1");
@@ -77,10 +81,4 @@ public class PlayerShootAbility : MonoBehaviour
         EventSystem.current.RaycastAll(eventData, results);
         return results.Count > 0; // Si hay elementos UI detectados, retorna true
     }
-
-
-
-
-
-
 }

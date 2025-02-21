@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 24773799}
   - component: {fileID: 24773798}
   - component: {fileID: 24773800}
+  - component: {fileID: 24773802}
   m_Layer: 0
   m_Name: Cube.003 (34)
   m_TagString: Muro
@@ -212,6 +213,27 @@ MeshFilter:
   m_GameObject: {fileID: 24773796}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &24773800
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24773796}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &24773802
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -362,6 +384,7 @@ GameObject:
   - component: {fileID: 51508237}
   - component: {fileID: 51508236}
   - component: {fileID: 51508238}
+  - component: {fileID: 51508240}
   m_Layer: 0
   m_Name: Cube.003 (106)
   m_TagString: Muro
@@ -449,12 +472,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &51508240
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51508234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &52885122
 GameObject:
   m_ObjectHideFlags: 0
@@ -639,6 +683,7 @@ GameObject:
   - component: {fileID: 64660417}
   - component: {fileID: 64660416}
   - component: {fileID: 64660418}
+  - component: {fileID: 64660420}
   m_Layer: 0
   m_Name: Cube.003 (48)
   m_TagString: Muro
@@ -726,12 +771,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &64660420
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64660414}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &67382762
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +810,7 @@ GameObject:
   - component: {fileID: 67382765}
   - component: {fileID: 67382764}
   - component: {fileID: 67382766}
+  - component: {fileID: 67382768}
   m_Layer: 0
   m_Name: Cube.003 (45)
   m_TagString: Muro
@@ -831,12 +898,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &67382768
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67382762}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &67485945
 GameObject:
   m_ObjectHideFlags: 0
@@ -921,6 +1009,7 @@ GameObject:
   - component: {fileID: 74391943}
   - component: {fileID: 74391942}
   - component: {fileID: 74391944}
+  - component: {fileID: 74391946}
   m_Layer: 0
   m_Name: Cube.003 (42)
   m_TagString: Muro
@@ -994,6 +1083,27 @@ MeshFilter:
   m_GameObject: {fileID: 74391940}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &74391944
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74391940}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &74391946
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1207,6 +1317,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
       propertyPath: m_Name
       value: MapaLaberinto
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
+      propertyPath: m_TagString
+      value: Muro
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -1591,9 +1705,15 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 791452922}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1776898643}
     - targetCorrespondingSourceObject: {fileID: -7146521406498821007, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1803012041}
+    - targetCorrespondingSourceObject: {fileID: -7146521406498821007, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1803012046}
   m_SourcePrefab: {fileID: 100100000, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!1 &90673262
 GameObject:
@@ -1607,6 +1727,7 @@ GameObject:
   - component: {fileID: 90673265}
   - component: {fileID: 90673264}
   - component: {fileID: 90673266}
+  - component: {fileID: 90673268}
   m_Layer: 0
   m_Name: Cube.003 (94)
   m_TagString: Muro
@@ -1680,6 +1801,27 @@ MeshFilter:
   m_GameObject: {fileID: 90673262}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &90673266
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90673262}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &90673268
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1787,6 +1929,7 @@ GameObject:
   - component: {fileID: 114691698}
   - component: {fileID: 114691697}
   - component: {fileID: 114691699}
+  - component: {fileID: 114691701}
   m_Layer: 0
   m_Name: Cube.003 (77)
   m_TagString: Muro
@@ -1874,6 +2017,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &114691701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 114691695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -1892,6 +2056,7 @@ GameObject:
   - component: {fileID: 115615589}
   - component: {fileID: 115615588}
   - component: {fileID: 115615590}
+  - component: {fileID: 115615592}
   m_Layer: 0
   m_Name: Cube.003 (36)
   m_TagString: Muro
@@ -1979,12 +2144,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &115615592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 115615586}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &118099349
 GameObject:
   m_ObjectHideFlags: 0
@@ -1997,6 +2183,7 @@ GameObject:
   - component: {fileID: 118099352}
   - component: {fileID: 118099351}
   - component: {fileID: 118099353}
+  - component: {fileID: 118099355}
   m_Layer: 0
   m_Name: Cube.003 (30)
   m_TagString: Muro
@@ -2084,12 +2271,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &118099355
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118099349}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &120950486
 GameObject:
   m_ObjectHideFlags: 0
@@ -2102,6 +2310,7 @@ GameObject:
   - component: {fileID: 120950489}
   - component: {fileID: 120950488}
   - component: {fileID: 120950490}
+  - component: {fileID: 120950492}
   m_Layer: 0
   m_Name: Cube.003 (103)
   m_TagString: Muro
@@ -2189,12 +2398,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &120950492
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 120950486}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &126996019
 GameObject:
   m_ObjectHideFlags: 0
@@ -2207,6 +2437,7 @@ GameObject:
   - component: {fileID: 126996022}
   - component: {fileID: 126996021}
   - component: {fileID: 126996023}
+  - component: {fileID: 126996025}
   m_Layer: 0
   m_Name: Cube.003 (73)
   m_TagString: Muro
@@ -2280,6 +2511,27 @@ MeshFilter:
   m_GameObject: {fileID: 126996019}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &126996023
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 126996019}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &126996025
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2504,7 +2756,7 @@ GameObject:
   - component: {fileID: 175840412}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2524,7 +2776,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2607,6 +2859,7 @@ GameObject:
   - component: {fileID: 189986833}
   - component: {fileID: 189986832}
   - component: {fileID: 189986834}
+  - component: {fileID: 189986836}
   m_Layer: 0
   m_Name: Cube.003 (4)
   m_TagString: Muro
@@ -2694,12 +2947,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &189986836
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 189986830}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &196548826
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,6 +2986,7 @@ GameObject:
   - component: {fileID: 196548829}
   - component: {fileID: 196548828}
   - component: {fileID: 196548830}
+  - component: {fileID: 196548832}
   m_Layer: 0
   m_Name: Cube.003 (29)
   m_TagString: Muro
@@ -2799,6 +3074,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &196548832
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196548826}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -2817,6 +3113,7 @@ GameObject:
   - component: {fileID: 198710738}
   - component: {fileID: 198710737}
   - component: {fileID: 198710739}
+  - component: {fileID: 198710741}
   m_Layer: 0
   m_Name: Cube.003 (40)
   m_TagString: Muro
@@ -2904,6 +3201,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &198710741
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198710735}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -2922,6 +3240,7 @@ GameObject:
   - component: {fileID: 214833424}
   - component: {fileID: 214833423}
   - component: {fileID: 214833425}
+  - component: {fileID: 214833427}
   m_Layer: 0
   m_Name: Cube.003 (50)
   m_TagString: Muro
@@ -3009,12 +3328,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &214833427
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 214833421}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &225151229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3025,7 +3365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 225151230}
   - component: {fileID: 225151231}
-  m_Layer: 31
+  m_Layer: 0
   m_Name: mapacamara
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3470,6 +3810,7 @@ GameObject:
   - component: {fileID: 303728582}
   - component: {fileID: 303728581}
   - component: {fileID: 303728583}
+  - component: {fileID: 303728585}
   m_Layer: 0
   m_Name: Cube.003 (63)
   m_TagString: Muro
@@ -3557,6 +3898,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &303728585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303728579}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -3580,6 +3942,7 @@ GameObject:
   - component: {fileID: 310287345}
   - component: {fileID: 310287344}
   - component: {fileID: 310287346}
+  - component: {fileID: 310287348}
   m_Layer: 0
   m_Name: Cube.003 (69)
   m_TagString: Muro
@@ -3667,12 +4030,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &310287348
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310287342}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &314710604 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -4551029001434447170, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
@@ -3703,6 +4087,7 @@ GameObject:
   - component: {fileID: 317759580}
   - component: {fileID: 317759579}
   - component: {fileID: 317759581}
+  - component: {fileID: 317759583}
   m_Layer: 0
   m_Name: Cube.003 (116)
   m_TagString: Muro
@@ -3790,12 +4175,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &317759583
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 317759577}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &327666751
 GameObject:
   m_ObjectHideFlags: 0
@@ -3949,6 +4355,7 @@ GameObject:
   - component: {fileID: 342330150}
   - component: {fileID: 342330149}
   - component: {fileID: 342330151}
+  - component: {fileID: 342330153}
   m_Layer: 0
   m_Name: Cube.003 (25)
   m_TagString: Muro
@@ -4036,6 +4443,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395198, z: -0.0000000041909516}
+--- !u!65 &342330153
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 342330147}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -4054,6 +4482,7 @@ GameObject:
   - component: {fileID: 345378625}
   - component: {fileID: 345378624}
   - component: {fileID: 345378626}
+  - component: {fileID: 345378628}
   m_Layer: 0
   m_Name: Cube.003 (22)
   m_TagString: Muro
@@ -4127,6 +4556,27 @@ MeshFilter:
   m_GameObject: {fileID: 345378622}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &345378626
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345378622}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &345378628
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4491,7 +4941,7 @@ GameObject:
   - component: {fileID: 390607973}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4511,7 +4961,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4968,6 +5418,7 @@ GameObject:
   - component: {fileID: 454504172}
   - component: {fileID: 454504171}
   - component: {fileID: 454504173}
+  - component: {fileID: 454504175}
   m_Layer: 0
   m_Name: Cube.003 (70)
   m_TagString: Muro
@@ -5055,12 +5506,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &454504175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454504169}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &474525142
 GameObject:
   m_ObjectHideFlags: 0
@@ -5073,6 +5545,7 @@ GameObject:
   - component: {fileID: 474525145}
   - component: {fileID: 474525144}
   - component: {fileID: 474525146}
+  - component: {fileID: 474525148}
   m_Layer: 0
   m_Name: Cube.003 (56)
   m_TagString: Muro
@@ -5160,6 +5633,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &474525148
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474525142}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -5178,6 +5672,7 @@ GameObject:
   - component: {fileID: 486661656}
   - component: {fileID: 486661655}
   - component: {fileID: 486661657}
+  - component: {fileID: 486661659}
   m_Layer: 0
   m_Name: Cube.003 (43)
   m_TagString: Muro
@@ -5265,12 +5760,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &486661659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486661653}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &487661709
 GameObject:
   m_ObjectHideFlags: 0
@@ -5283,6 +5799,7 @@ GameObject:
   - component: {fileID: 487661712}
   - component: {fileID: 487661711}
   - component: {fileID: 487661713}
+  - component: {fileID: 487661715}
   m_Layer: 0
   m_Name: Cube.003 (49)
   m_TagString: Muro
@@ -5370,12 +5887,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &487661715
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487661709}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &489135158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5388,6 +5926,7 @@ GameObject:
   - component: {fileID: 489135161}
   - component: {fileID: 489135160}
   - component: {fileID: 489135162}
+  - component: {fileID: 489135164}
   m_Layer: 0
   m_Name: Cube.003 (54)
   m_TagString: Muro
@@ -5475,12 +6014,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &489135164
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489135158}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &494579067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5546,6 +6106,7 @@ GameObject:
   - component: {fileID: 498058341}
   - component: {fileID: 498058340}
   - component: {fileID: 498058342}
+  - component: {fileID: 498058344}
   m_Layer: 0
   m_Name: Cube.003 (92)
   m_TagString: Muro
@@ -5633,6 +6194,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &498058344
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498058338}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -5653,7 +6235,7 @@ GameObject:
   - component: {fileID: 511364069}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5688,7 +6270,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5839,6 +6421,7 @@ GameObject:
   - component: {fileID: 533490504}
   - component: {fileID: 533490503}
   - component: {fileID: 533490505}
+  - component: {fileID: 533490507}
   m_Layer: 0
   m_Name: Cube.003 (57)
   m_TagString: Muro
@@ -5926,6 +6509,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &533490507
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533490501}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -5944,6 +6548,7 @@ GameObject:
   - component: {fileID: 534333812}
   - component: {fileID: 534333811}
   - component: {fileID: 534333813}
+  - component: {fileID: 534333815}
   m_Layer: 0
   m_Name: Cube.003 (90)
   m_TagString: Muro
@@ -6031,12 +6636,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &534333815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534333809}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395205, z: -0.0000000041909516}
 --- !u!4 &545676272 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3759297987941179987, guid: 004329c0e97bd4c48967857a11be3fb5, type: 3}
@@ -6054,6 +6680,7 @@ GameObject:
   - component: {fileID: 550331037}
   - component: {fileID: 550331036}
   - component: {fileID: 550331038}
+  - component: {fileID: 550331040}
   m_Layer: 0
   m_Name: Cube.003 (33)
   m_TagString: Muro
@@ -6141,6 +6768,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &550331040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 550331034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -6159,6 +6807,7 @@ GameObject:
   - component: {fileID: 555820961}
   - component: {fileID: 555820960}
   - component: {fileID: 555820962}
+  - component: {fileID: 555820964}
   m_Layer: 0
   m_Name: Cube.003 (41)
   m_TagString: Muro
@@ -6246,12 +6895,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &555820964
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555820958}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &571363084
 GameObject:
   m_ObjectHideFlags: 0
@@ -6349,7 +7019,7 @@ GameObject:
   - component: {fileID: 578897716}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6384,7 +7054,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6452,6 +7122,7 @@ GameObject:
   - component: {fileID: 584220998}
   - component: {fileID: 584220997}
   - component: {fileID: 584220999}
+  - component: {fileID: 584221001}
   m_Layer: 0
   m_Name: Cube.003 (124)
   m_TagString: Muro
@@ -6525,6 +7196,27 @@ MeshFilter:
   m_GameObject: {fileID: 584220995}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &584220999
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584220995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &584221001
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7433,6 +8125,7 @@ GameObject:
   - component: {fileID: 643075908}
   - component: {fileID: 643075907}
   - component: {fileID: 643075909}
+  - component: {fileID: 643075911}
   m_Layer: 0
   m_Name: Cube.003 (82)
   m_TagString: Muro
@@ -7520,6 +8213,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &643075911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643075905}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -7534,6 +8248,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -9140957818725439237, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
       propertyPath: m_LocalScale.x
       value: 2.5
@@ -7602,6 +8320,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9efbdb862990242178d5b47a40b48e80, type: 2}
+    - target: {fileID: -4794835077654396770, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4551029001434447170, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4370111678170979691, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4057130026570166520, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -4020924224465817570, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -7621,6 +8355,22 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
       propertyPath: m_Name
       value: ENEMIGO ACCEL
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1398902179435210669, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2780161982459417695, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4636341223262701138, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
       propertyPath: m_Mesh
@@ -7675,6 +8425,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1564899958}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1564899959}
     - targetCorrespondingSourceObject: {fileID: -4057130026570166520, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
       insertIndex: -1
       addedObject: {fileID: 660890023}
@@ -7755,6 +8508,7 @@ GameObject:
   - component: {fileID: 668542223}
   - component: {fileID: 668542222}
   - component: {fileID: 668542224}
+  - component: {fileID: 668542226}
   m_Layer: 0
   m_Name: Cube.003 (32)
   m_TagString: Muro
@@ -7828,6 +8582,27 @@ MeshFilter:
   m_GameObject: {fileID: 668542220}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &668542224
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668542220}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395198, z: -0.0000000041909516}
+--- !u!65 &668542226
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7993,6 +8768,7 @@ GameObject:
   - component: {fileID: 682059815}
   - component: {fileID: 682059814}
   - component: {fileID: 682059816}
+  - component: {fileID: 682059818}
   m_Layer: 0
   m_Name: Cube.003 (66)
   m_TagString: Muro
@@ -8080,12 +8856,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &682059818
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 682059812}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -0.0000000041909516}
 --- !u!4 &700744780 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2451029579613364129, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
@@ -8103,6 +8900,7 @@ GameObject:
   - component: {fileID: 703489691}
   - component: {fileID: 703489690}
   - component: {fileID: 703489692}
+  - component: {fileID: 703489694}
   m_Layer: 0
   m_Name: Cube.003 (101)
   m_TagString: Muro
@@ -8190,12 +8988,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &703489694
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703489688}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &705178022
 GameObject:
   m_ObjectHideFlags: 0
@@ -8208,6 +9027,7 @@ GameObject:
   - component: {fileID: 705178025}
   - component: {fileID: 705178024}
   - component: {fileID: 705178026}
+  - component: {fileID: 705178028}
   m_Layer: 0
   m_Name: Cube.003 (18)
   m_TagString: Muro
@@ -8295,12 +9115,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &705178028
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705178022}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
 --- !u!4 &709997568 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3759297987941179987, guid: 004329c0e97bd4c48967857a11be3fb5, type: 3}
@@ -8318,6 +9159,7 @@ GameObject:
   - component: {fileID: 736516305}
   - component: {fileID: 736516304}
   - component: {fileID: 736516306}
+  - component: {fileID: 736516308}
   m_Layer: 0
   m_Name: Cube.003 (85)
   m_TagString: Muro
@@ -8405,6 +9247,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &736516308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736516302}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -8423,6 +9286,7 @@ GameObject:
   - component: {fileID: 762073936}
   - component: {fileID: 762073935}
   - component: {fileID: 762073937}
+  - component: {fileID: 762073939}
   m_Layer: 0
   m_Name: Cube.003 (88)
   m_TagString: Muro
@@ -8510,12 +9374,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &762073939
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762073933}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395205, z: -0.0000000041909516}
 --- !u!4 &771212871 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3759297987941179987, guid: 004329c0e97bd4c48967857a11be3fb5, type: 3}
@@ -8533,6 +9418,7 @@ GameObject:
   - component: {fileID: 773469701}
   - component: {fileID: 773469700}
   - component: {fileID: 773469702}
+  - component: {fileID: 773469704}
   m_Layer: 0
   m_Name: Cube.003 (35)
   m_TagString: Muro
@@ -8620,12 +9506,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &773469704
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773469698}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &777124065
 GameObject:
   m_ObjectHideFlags: 0
@@ -8638,6 +9545,7 @@ GameObject:
   - component: {fileID: 777124068}
   - component: {fileID: 777124067}
   - component: {fileID: 777124069}
+  - component: {fileID: 777124071}
   m_Layer: 0
   m_Name: Cube.003 (37)
   m_TagString: Muro
@@ -8725,12 +9633,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &777124071
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 777124065}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1001 &782628375
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8829,7 +9758,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6751388636123340836, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7113428977333465798, guid: 2f7f3dde7ae722a4aafffe20691ad702, type: 3}
       propertyPath: joystickRange
@@ -8860,6 +9789,7 @@ GameObject:
   - component: {fileID: 786483690}
   - component: {fileID: 786483689}
   - component: {fileID: 786483691}
+  - component: {fileID: 786483693}
   m_Layer: 0
   m_Name: Cube.003 (8)
   m_TagString: Muro
@@ -8947,12 +9877,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &786483693
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 786483687}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &791452921
 GameObject:
   m_ObjectHideFlags: 0
@@ -8965,6 +9916,7 @@ GameObject:
   - component: {fileID: 791452924}
   - component: {fileID: 791452923}
   - component: {fileID: 791452925}
+  - component: {fileID: 791452927}
   m_Layer: 0
   m_Name: Cube.003 (28)
   m_TagString: Muro
@@ -9052,12 +10004,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &791452927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791452921}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &793258039
 GameObject:
   m_ObjectHideFlags: 0
@@ -9204,6 +10177,7 @@ GameObject:
   - component: {fileID: 819499794}
   - component: {fileID: 819499793}
   - component: {fileID: 819499795}
+  - component: {fileID: 819499797}
   m_Layer: 0
   m_Name: Cube.003 (98)
   m_TagString: Muro
@@ -9291,12 +10265,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &819499797
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819499791}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &822397771
 GameObject:
   m_ObjectHideFlags: 0
@@ -9372,6 +10367,7 @@ GameObject:
   - component: {fileID: 823964337}
   - component: {fileID: 823964336}
   - component: {fileID: 823964338}
+  - component: {fileID: 823964340}
   m_Layer: 0
   m_Name: Cube.003 (31)
   m_TagString: Muro
@@ -9459,6 +10455,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &823964340
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823964334}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -9477,6 +10494,7 @@ GameObject:
   - component: {fileID: 830606109}
   - component: {fileID: 830606108}
   - component: {fileID: 830606110}
+  - component: {fileID: 830606112}
   m_Layer: 0
   m_Name: Cube.003 (74)
   m_TagString: Muro
@@ -9564,12 +10582,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &830606112
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830606106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1001 &840230423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9639,6 +10678,7 @@ GameObject:
   - component: {fileID: 842195731}
   - component: {fileID: 842195730}
   - component: {fileID: 842195732}
+  - component: {fileID: 842195734}
   m_Layer: 0
   m_Name: Cube.003 (114)
   m_TagString: Muro
@@ -9712,6 +10752,27 @@ MeshFilter:
   m_GameObject: {fileID: 842195728}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &842195732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 842195728}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &842195734
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10094,7 +11155,7 @@ GameObject:
   - component: {fileID: 858178416}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10114,7 +11175,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -10197,6 +11258,7 @@ GameObject:
   - component: {fileID: 858392953}
   - component: {fileID: 858392952}
   - component: {fileID: 858392954}
+  - component: {fileID: 858392956}
   m_Layer: 0
   m_Name: Cube.003 (20)
   m_TagString: Muro
@@ -10284,6 +11346,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &858392956
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 858392950}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -10302,6 +11385,7 @@ GameObject:
   - component: {fileID: 865468971}
   - component: {fileID: 865468970}
   - component: {fileID: 865468972}
+  - component: {fileID: 865468974}
   m_Layer: 0
   m_Name: Cube.003 (60)
   m_TagString: Muro
@@ -10389,12 +11473,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &865468974
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865468968}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &866537678
 GameObject:
   m_ObjectHideFlags: 0
@@ -10407,6 +11512,7 @@ GameObject:
   - component: {fileID: 866537681}
   - component: {fileID: 866537680}
   - component: {fileID: 866537682}
+  - component: {fileID: 866537684}
   m_Layer: 0
   m_Name: Cube.003 (12)
   m_TagString: Muro
@@ -10494,6 +11600,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &866537684
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 866537678}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -10512,6 +11639,7 @@ GameObject:
   - component: {fileID: 875335144}
   - component: {fileID: 875335143}
   - component: {fileID: 875335145}
+  - component: {fileID: 875335147}
   m_Layer: 0
   m_Name: Cube.003 (62)
   m_TagString: Muro
@@ -10599,12 +11727,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &875335147
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875335141}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &885938846
 GameObject:
   m_ObjectHideFlags: 0
@@ -10920,6 +12069,7 @@ GameObject:
   - component: {fileID: 906941336}
   - component: {fileID: 906941335}
   - component: {fileID: 906941337}
+  - component: {fileID: 906941339}
   m_Layer: 0
   m_Name: Cube.003 (55)
   m_TagString: Muro
@@ -11007,12 +12157,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &906941339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906941333}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &908043948
 GameObject:
   m_ObjectHideFlags: 0
@@ -11025,6 +12196,7 @@ GameObject:
   - component: {fileID: 908043951}
   - component: {fileID: 908043950}
   - component: {fileID: 908043952}
+  - component: {fileID: 908043954}
   m_Layer: 0
   m_Name: Cube.003 (53)
   m_TagString: Muro
@@ -11098,6 +12270,27 @@ MeshFilter:
   m_GameObject: {fileID: 908043948}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &908043952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 908043948}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &908043954
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11371,6 +12564,7 @@ GameObject:
   - component: {fileID: 951221609}
   - component: {fileID: 951221608}
   - component: {fileID: 951221610}
+  - component: {fileID: 951221612}
   m_Layer: 0
   m_Name: Cube.003 (119)
   m_TagString: Muro
@@ -11444,6 +12638,27 @@ MeshFilter:
   m_GameObject: {fileID: 951221606}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &951221610
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951221606}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &951221612
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11723,6 +12938,7 @@ GameObject:
   - component: {fileID: 967942698}
   - component: {fileID: 967942697}
   - component: {fileID: 967942699}
+  - component: {fileID: 967942701}
   m_Layer: 0
   m_Name: Cube.003 (125)
   m_TagString: Muro
@@ -11810,12 +13026,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &967942701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967942695}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &978274485
 GameObject:
   m_ObjectHideFlags: 0
@@ -11961,6 +13198,7 @@ GameObject:
   - component: {fileID: 980170856}
   - component: {fileID: 980170855}
   - component: {fileID: 980170857}
+  - component: {fileID: 980170859}
   m_Layer: 0
   m_Name: Cube.003 (71)
   m_TagString: Muro
@@ -12048,6 +13286,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &980170859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 980170853}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -12066,6 +13325,7 @@ GameObject:
   - component: {fileID: 1008912862}
   - component: {fileID: 1008912861}
   - component: {fileID: 1008912863}
+  - component: {fileID: 1008912865}
   m_Layer: 0
   m_Name: Cube.003 (59)
   m_TagString: Muro
@@ -12153,12 +13413,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &1008912865
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008912859}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &1025070829
 GameObject:
   m_ObjectHideFlags: 0
@@ -12202,6 +13483,7 @@ GameObject:
   - component: {fileID: 1031434869}
   - component: {fileID: 1031434868}
   - component: {fileID: 1031434870}
+  - component: {fileID: 1031434872}
   m_Layer: 0
   m_Name: Cube.003 (3)
   m_TagString: Muro
@@ -12289,12 +13571,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1031434872
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1031434866}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1056222321
 GameObject:
   m_ObjectHideFlags: 0
@@ -12307,6 +13610,7 @@ GameObject:
   - component: {fileID: 1056222324}
   - component: {fileID: 1056222323}
   - component: {fileID: 1056222325}
+  - component: {fileID: 1056222327}
   m_Layer: 0
   m_Name: Cube.003 (83)
   m_TagString: Muro
@@ -12394,6 +13698,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &1056222327
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056222321}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -12412,6 +13737,7 @@ GameObject:
   - component: {fileID: 1072534384}
   - component: {fileID: 1072534383}
   - component: {fileID: 1072534385}
+  - component: {fileID: 1072534387}
   m_Layer: 0
   m_Name: Cube.003 (81)
   m_TagString: Muro
@@ -12499,12 +13825,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
   m_Center: {x: -0.08456116, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &1072534387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072534381}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
 --- !u!1 &1075689034
 GameObject:
   m_ObjectHideFlags: 0
@@ -12517,6 +13864,7 @@ GameObject:
   - component: {fileID: 1075689037}
   - component: {fileID: 1075689036}
   - component: {fileID: 1075689038}
+  - component: {fileID: 1075689040}
   m_Layer: 0
   m_Name: Cube.003 (9)
   m_TagString: Muro
@@ -12604,12 +13952,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1075689040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075689034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1076699003
 GameObject:
   m_ObjectHideFlags: 0
@@ -12622,6 +13991,7 @@ GameObject:
   - component: {fileID: 1076699006}
   - component: {fileID: 1076699005}
   - component: {fileID: 1076699007}
+  - component: {fileID: 1076699009}
   m_Layer: 0
   m_Name: Cube.003 (39)
   m_TagString: Muro
@@ -12709,12 +14079,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1076699009
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076699003}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1077803352
 GameObject:
   m_ObjectHideFlags: 0
@@ -12727,6 +14118,7 @@ GameObject:
   - component: {fileID: 1077803355}
   - component: {fileID: 1077803354}
   - component: {fileID: 1077803356}
+  - component: {fileID: 1077803358}
   m_Layer: 0
   m_Name: Cube.003 (115)
   m_TagString: Muro
@@ -12814,12 +14206,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1077803358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077803352}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1085341608
 GameObject:
   m_ObjectHideFlags: 0
@@ -12881,6 +14294,7 @@ GameObject:
   - component: {fileID: 1087537084}
   - component: {fileID: 1087537083}
   - component: {fileID: 1087537085}
+  - component: {fileID: 1087537087}
   m_Layer: 0
   m_Name: Cube.003 (27)
   m_TagString: Muro
@@ -12954,6 +14368,27 @@ MeshFilter:
   m_GameObject: {fileID: 1087537081}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1087537085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1087537081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1087537087
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13161,6 +14596,7 @@ GameObject:
   - component: {fileID: 1112984388}
   - component: {fileID: 1112984387}
   - component: {fileID: 1112984389}
+  - component: {fileID: 1112984391}
   m_Layer: 0
   m_Name: Cube.003 (51)
   m_TagString: Muro
@@ -13248,12 +14684,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885613, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456115, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1112984391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1112984385}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1119792235 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2974661390576649499, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
@@ -13271,6 +14728,7 @@ GameObject:
   - component: {fileID: 1146854501}
   - component: {fileID: 1146854500}
   - component: {fileID: 1146854502}
+  - component: {fileID: 1146854504}
   m_Layer: 0
   m_Name: Cube.003 (86)
   m_TagString: Muro
@@ -13358,12 +14816,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
   m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &1146854504
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146854498}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.08456116, y: 0.22395183, z: -0.000000004991019}
 --- !u!1001 &1171125618
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13433,6 +14912,7 @@ GameObject:
   - component: {fileID: 1176629642}
   - component: {fileID: 1176629641}
   - component: {fileID: 1176629643}
+  - component: {fileID: 1176629645}
   m_Layer: 0
   m_Name: Cube.003 (122)
   m_TagString: Muro
@@ -13520,6 +15000,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1176629645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176629639}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -13538,6 +15039,7 @@ GameObject:
   - component: {fileID: 1189019598}
   - component: {fileID: 1189019597}
   - component: {fileID: 1189019599}
+  - component: {fileID: 1189019601}
   m_Layer: 0
   m_Name: Cube.003 (15)
   m_TagString: Muro
@@ -13625,12 +15127,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &1189019601
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189019595}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &1197619566
 GameObject:
   m_ObjectHideFlags: 0
@@ -13643,6 +15166,7 @@ GameObject:
   - component: {fileID: 1197619569}
   - component: {fileID: 1197619568}
   - component: {fileID: 1197619570}
+  - component: {fileID: 1197619572}
   m_Layer: 0
   m_Name: Cube.003 (5)
   m_TagString: Muro
@@ -13716,6 +15240,27 @@ MeshFilter:
   m_GameObject: {fileID: 1197619566}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1197619570
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197619566}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1197619572
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13882,6 +15427,7 @@ GameObject:
   - component: {fileID: 1229402332}
   - component: {fileID: 1229402331}
   - component: {fileID: 1229402333}
+  - component: {fileID: 1229402335}
   m_Layer: 0
   m_Name: Cube.003 (11)
   m_TagString: Muro
@@ -13969,6 +15515,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1229402335
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229402329}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -13987,6 +15554,7 @@ GameObject:
   - component: {fileID: 1231958430}
   - component: {fileID: 1231958429}
   - component: {fileID: 1231958431}
+  - component: {fileID: 1231958433}
   m_Layer: 0
   m_Name: Cube.003 (68)
   m_TagString: Muro
@@ -14074,12 +15642,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1231958433
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231958427}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1233840216
 GameObject:
   m_ObjectHideFlags: 0
@@ -14092,6 +15681,7 @@ GameObject:
   - component: {fileID: 1233840219}
   - component: {fileID: 1233840218}
   - component: {fileID: 1233840220}
+  - component: {fileID: 1233840222}
   m_Layer: 0
   m_Name: Cube.003 (19)
   m_TagString: Muro
@@ -14179,12 +15769,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &1233840222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233840216}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &1234467114
 GameObject:
   m_ObjectHideFlags: 0
@@ -14197,6 +15808,7 @@ GameObject:
   - component: {fileID: 1234467117}
   - component: {fileID: 1234467116}
   - component: {fileID: 1234467118}
+  - component: {fileID: 1234467120}
   m_Layer: 0
   m_Name: Cube.003 (99)
   m_TagString: Muro
@@ -14284,6 +15896,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1234467120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234467114}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -14302,6 +15935,7 @@ GameObject:
   - component: {fileID: 1237900906}
   - component: {fileID: 1237900905}
   - component: {fileID: 1237900907}
+  - component: {fileID: 1237900909}
   m_Layer: 0
   m_Name: Cube.003 (89)
   m_TagString: Muro
@@ -14375,6 +16009,27 @@ MeshFilter:
   m_GameObject: {fileID: 1237900903}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1237900907
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237900903}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &1237900909
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14595,6 +16250,7 @@ GameObject:
   - component: {fileID: 1280544936}
   - component: {fileID: 1280544935}
   - component: {fileID: 1280544937}
+  - component: {fileID: 1280544939}
   m_Layer: 0
   m_Name: Cube.003 (80)
   m_TagString: Muro
@@ -14668,6 +16324,27 @@ MeshFilter:
   m_GameObject: {fileID: 1280544933}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1280544937
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280544933}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &1280544939
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14838,7 +16515,7 @@ GameObject:
   - component: {fileID: 1329513592}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14873,7 +16550,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -14941,6 +16618,7 @@ GameObject:
   - component: {fileID: 1340457219}
   - component: {fileID: 1340457218}
   - component: {fileID: 1340457220}
+  - component: {fileID: 1340457222}
   m_Layer: 0
   m_Name: Cube.003 (44)
   m_TagString: Muro
@@ -15028,12 +16706,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1340457222
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340457216}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1376861001
 GameObject:
   m_ObjectHideFlags: 0
@@ -15046,6 +16745,7 @@ GameObject:
   - component: {fileID: 1376861004}
   - component: {fileID: 1376861003}
   - component: {fileID: 1376861005}
+  - component: {fileID: 1376861007}
   m_Layer: 0
   m_Name: Cube.003 (72)
   m_TagString: Muro
@@ -15133,12 +16833,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1376861007
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376861001}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1377111750
 GameObject:
   m_ObjectHideFlags: 0
@@ -15151,6 +16872,7 @@ GameObject:
   - component: {fileID: 1377111753}
   - component: {fileID: 1377111752}
   - component: {fileID: 1377111754}
+  - component: {fileID: 1377111756}
   m_Layer: 0
   m_Name: Cube.003 (96)
   m_TagString: Muro
@@ -15238,6 +16960,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &1377111756
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377111750}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -15256,6 +16999,7 @@ GameObject:
   - component: {fileID: 1385257360}
   - component: {fileID: 1385257359}
   - component: {fileID: 1385257361}
+  - component: {fileID: 1385257363}
   m_Layer: 0
   m_Name: Cube.003 (24)
   m_TagString: Muro
@@ -15343,12 +17087,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395198, z: -0.0000000041909516}
+--- !u!65 &1385257363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385257357}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395198, z: -0.0000000041909516}
 --- !u!4 &1390335069 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3759297987941179987, guid: 004329c0e97bd4c48967857a11be3fb5, type: 3}
@@ -15366,6 +17131,7 @@ GameObject:
   - component: {fileID: 1406111776}
   - component: {fileID: 1406111775}
   - component: {fileID: 1406111777}
+  - component: {fileID: 1406111779}
   m_Layer: 0
   m_Name: Cube.003 (38)
   m_TagString: Muro
@@ -15453,12 +17219,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1406111779
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406111773}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1421362513
 GameObject:
   m_ObjectHideFlags: 0
@@ -15519,6 +17306,7 @@ GameObject:
   - component: {fileID: 1429368901}
   - component: {fileID: 1429368900}
   - component: {fileID: 1429368902}
+  - component: {fileID: 1429368904}
   m_Layer: 0
   m_Name: Cube.003 (10)
   m_TagString: Muro
@@ -15592,6 +17380,27 @@ MeshFilter:
   m_GameObject: {fileID: 1429368898}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1429368902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429368898}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1429368904
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -15758,6 +17567,7 @@ GameObject:
   - component: {fileID: 1441855708}
   - component: {fileID: 1441855707}
   - component: {fileID: 1441855709}
+  - component: {fileID: 1441855711}
   m_Layer: 0
   m_Name: Cube.003 (52)
   m_TagString: Muro
@@ -15845,12 +17655,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1441855711
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441855705}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1442023751
 GameObject:
   m_ObjectHideFlags: 0
@@ -15863,6 +17694,7 @@ GameObject:
   - component: {fileID: 1442023754}
   - component: {fileID: 1442023753}
   - component: {fileID: 1442023755}
+  - component: {fileID: 1442023757}
   m_Layer: 0
   m_Name: Cube.003 (78)
   m_TagString: Muro
@@ -15950,6 +17782,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1442023757
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442023751}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -15968,6 +17821,7 @@ GameObject:
   - component: {fileID: 1444929300}
   - component: {fileID: 1444929299}
   - component: {fileID: 1444929301}
+  - component: {fileID: 1444929303}
   m_Layer: 0
   m_Name: Cube.003 (97)
   m_TagString: Muro
@@ -16055,12 +17909,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1444929303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1444929297}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1449686390
 GameObject:
   m_ObjectHideFlags: 0
@@ -16191,6 +18066,7 @@ GameObject:
   - component: {fileID: 1456496811}
   - component: {fileID: 1456496810}
   - component: {fileID: 1456496812}
+  - component: {fileID: 1456496814}
   m_Layer: 0
   m_Name: Cube.003 (76)
   m_TagString: Muro
@@ -16278,12 +18154,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1456496814
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456496808}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1464643332
 GameObject:
   m_ObjectHideFlags: 0
@@ -16296,6 +18193,7 @@ GameObject:
   - component: {fileID: 1464643335}
   - component: {fileID: 1464643334}
   - component: {fileID: 1464643336}
+  - component: {fileID: 1464643338}
   m_Layer: 0
   m_Name: Cube.003 (105)
   m_TagString: Muro
@@ -16383,6 +18281,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1464643338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464643332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -16401,6 +18320,7 @@ GameObject:
   - component: {fileID: 1474243197}
   - component: {fileID: 1474243196}
   - component: {fileID: 1474243198}
+  - component: {fileID: 1474243200}
   m_Layer: 0
   m_Name: Cube.003 (79)
   m_TagString: Muro
@@ -16488,12 +18408,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1474243200
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474243194}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1485313888
 GameObject:
   m_ObjectHideFlags: 0
@@ -16506,6 +18447,7 @@ GameObject:
   - component: {fileID: 1485313891}
   - component: {fileID: 1485313890}
   - component: {fileID: 1485313892}
+  - component: {fileID: 1485313894}
   m_Layer: 0
   m_Name: Cube.003 (14)
   m_TagString: Muro
@@ -16593,12 +18535,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &1485313894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485313888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &1497746666
 GameObject:
   m_ObjectHideFlags: 0
@@ -16657,6 +18620,7 @@ GameObject:
   - component: {fileID: 1502049931}
   - component: {fileID: 1502049930}
   - component: {fileID: 1502049932}
+  - component: {fileID: 1502049934}
   m_Layer: 0
   m_Name: Cube.003 (117)
   m_TagString: Muro
@@ -16744,6 +18708,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &1502049934
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1502049928}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -16762,6 +18747,7 @@ GameObject:
   - component: {fileID: 1511533585}
   - component: {fileID: 1511533584}
   - component: {fileID: 1511533586}
+  - component: {fileID: 1511533588}
   m_Layer: 0
   m_Name: Cube.003 (104)
   m_TagString: Muro
@@ -16849,12 +18835,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1511533588
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1511533582}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1544342800
 GameObject:
   m_ObjectHideFlags: 0
@@ -16867,6 +18874,7 @@ GameObject:
   - component: {fileID: 1544342803}
   - component: {fileID: 1544342802}
   - component: {fileID: 1544342804}
+  - component: {fileID: 1544342806}
   m_Layer: 0
   m_Name: Cube.003 (91)
   m_TagString: Muro
@@ -16954,6 +18962,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &1544342806
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544342800}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -16972,6 +19001,7 @@ GameObject:
   - component: {fileID: 1544799959}
   - component: {fileID: 1544799958}
   - component: {fileID: 1544799960}
+  - component: {fileID: 1544799962}
   m_Layer: 0
   m_Name: Cube.003 (65)
   m_TagString: Muro
@@ -17059,12 +19089,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1544799962
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544799956}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1545051562
 GameObject:
   m_ObjectHideFlags: 0
@@ -17077,6 +19128,7 @@ GameObject:
   - component: {fileID: 1545051565}
   - component: {fileID: 1545051564}
   - component: {fileID: 1545051566}
+  - component: {fileID: 1545051568}
   m_Layer: 0
   m_Name: Cube.003 (21)
   m_TagString: Muro
@@ -17164,6 +19216,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1545051568
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545051562}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -17182,6 +19255,7 @@ GameObject:
   - component: {fileID: 1546800285}
   - component: {fileID: 1546800284}
   - component: {fileID: 1546800286}
+  - component: {fileID: 1546800288}
   m_Layer: 0
   m_Name: Cube.003 (111)
   m_TagString: Muro
@@ -17269,12 +19343,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1546800288
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546800282}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1548491688
 GameObject:
   m_ObjectHideFlags: 0
@@ -17362,6 +19457,7 @@ GameObject:
   - component: {fileID: 1563232582}
   - component: {fileID: 1563232581}
   - component: {fileID: 1563232583}
+  - component: {fileID: 1563232585}
   m_Layer: 0
   m_Name: Cube.003 (2)
   m_TagString: Muro
@@ -17449,12 +19545,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1563232585
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563232579}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1564899947 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: f1298ccdf391cdf4c896130c79192a70, type: 3}
@@ -17480,7 +19597,7 @@ MonoBehaviour:
   Ojos: {fileID: 2126148022}
   rangoVision: 50
   offset: {x: 0, y: 0.5, z: 0}
-  canvasPerder: {fileID: 923312677}
+  canvasPerder: {fileID: 2098910481}
   distanciaRaycast: 20
 --- !u!114 &1564899950
 MonoBehaviour:
@@ -17615,7 +19732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efectoExplosion: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
-  canvasPerder: {fileID: 923312677}
+  canvasPerder: {fileID: 0}
   puntos: 2
   enemieFix: {fileID: 1926883987}
 --- !u!136 &1564899958
@@ -17641,6 +19758,19 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1564899959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564899947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f731a6d8ccfbeef42ab672c5b862dbfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
 --- !u!1 &1571008113
 GameObject:
   m_ObjectHideFlags: 0
@@ -18003,6 +20133,7 @@ GameObject:
   - component: {fileID: 1616283424}
   - component: {fileID: 1616283423}
   - component: {fileID: 1616283425}
+  - component: {fileID: 1616283427}
   m_Layer: 0
   m_Name: Cube.003 (17)
   m_TagString: Muro
@@ -18090,12 +20221,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &1616283427
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1616283421}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395205, z: -0.0000000041909516}
 --- !u!1 &1640843924
 GameObject:
   m_ObjectHideFlags: 0
@@ -18108,6 +20260,7 @@ GameObject:
   - component: {fileID: 1640843927}
   - component: {fileID: 1640843926}
   - component: {fileID: 1640843928}
+  - component: {fileID: 1640843930}
   m_Layer: 0
   m_Name: Cube.003 (120)
   m_TagString: Muro
@@ -18195,6 +20348,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &1640843930
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640843924}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -18213,6 +20387,7 @@ GameObject:
   - component: {fileID: 1652295824}
   - component: {fileID: 1652295823}
   - component: {fileID: 1652295825}
+  - component: {fileID: 1652295827}
   m_Layer: 0
   m_Name: Cube.003 (100)
   m_TagString: Muro
@@ -18300,12 +20475,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1652295827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652295821}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1652697596
 GameObject:
   m_ObjectHideFlags: 0
@@ -18318,6 +20514,7 @@ GameObject:
   - component: {fileID: 1652697599}
   - component: {fileID: 1652697598}
   - component: {fileID: 1652697600}
+  - component: {fileID: 1652697602}
   m_Layer: 0
   m_Name: Cube.003 (84)
   m_TagString: Muro
@@ -18391,6 +20588,27 @@ MeshFilter:
   m_GameObject: {fileID: 1652697596}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1652697600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652697596}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &1652697602
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18650,6 +20868,7 @@ GameObject:
   - component: {fileID: 1678707241}
   - component: {fileID: 1678707240}
   - component: {fileID: 1678707242}
+  - component: {fileID: 1678707244}
   m_Layer: 0
   m_Name: Cube.003 (113)
   m_TagString: Muro
@@ -18737,12 +20956,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1678707244
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678707238}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1683402376
 GameObject:
   m_ObjectHideFlags: 0
@@ -18755,6 +20995,7 @@ GameObject:
   - component: {fileID: 1683402379}
   - component: {fileID: 1683402378}
   - component: {fileID: 1683402380}
+  - component: {fileID: 1683402382}
   m_Layer: 0
   m_Name: Cube.003 (26)
   m_TagString: Muro
@@ -18842,12 +21083,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395198, z: -0.0000000041909516}
+--- !u!65 &1683402382
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683402376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395198, z: -0.0000000041909516}
 --- !u!1 &1693739130
 GameObject:
   m_ObjectHideFlags: 0
@@ -19091,6 +21353,7 @@ GameObject:
   - component: {fileID: 1699861026}
   - component: {fileID: 1699861025}
   - component: {fileID: 1699861027}
+  - component: {fileID: 1699861029}
   m_Layer: 0
   m_Name: Cube.003 (61)
   m_TagString: Muro
@@ -19178,6 +21441,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &1699861029
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699861023}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -19196,6 +21480,7 @@ GameObject:
   - component: {fileID: 1702847831}
   - component: {fileID: 1702847830}
   - component: {fileID: 1702847832}
+  - component: {fileID: 1702847834}
   m_Layer: 0
   m_Name: Cube.003 (109)
   m_TagString: Muro
@@ -19283,12 +21568,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1702847834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702847828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1706975813
 GameObject:
   m_ObjectHideFlags: 0
@@ -19389,6 +21695,7 @@ GameObject:
   - component: {fileID: 1724996933}
   - component: {fileID: 1724996932}
   - component: {fileID: 1724996934}
+  - component: {fileID: 1724996936}
   m_Layer: 0
   m_Name: Cube.003 (87)
   m_TagString: Muro
@@ -19462,6 +21769,27 @@ MeshFilter:
   m_GameObject: {fileID: 1724996930}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1724996934
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724996930}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &1724996936
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19569,6 +21897,7 @@ GameObject:
   - component: {fileID: 1731626367}
   - component: {fileID: 1731626366}
   - component: {fileID: 1731626368}
+  - component: {fileID: 1731626370}
   m_Layer: 0
   m_Name: Cube.003 (93)
   m_TagString: Muro
@@ -19642,6 +21971,27 @@ MeshFilter:
   m_GameObject: {fileID: 1731626364}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &1731626368
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1731626364}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &1731626370
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19742,6 +22092,7 @@ GameObject:
   - component: {fileID: 1764138288}
   - component: {fileID: 1764138287}
   - component: {fileID: 1764138289}
+  - component: {fileID: 1764138291}
   m_Layer: 0
   m_Name: Cube.003 (107)
   m_TagString: Muro
@@ -19829,12 +22180,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1764138291
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1764138285}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1768974180
 GameObject:
   m_ObjectHideFlags: 0
@@ -19910,6 +22282,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1768974180}
   m_CullTransparentMesh: 1
+--- !u!1 &1776898642 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
+  m_PrefabInstance: {fileID: 88503825}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1776898643
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1776898642}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1779014564
 GameObject:
   m_ObjectHideFlags: 0
@@ -20063,6 +22461,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1803012046
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803012037}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -20081,6 +22500,7 @@ GameObject:
   - component: {fileID: 1805437110}
   - component: {fileID: 1805437109}
   - component: {fileID: 1805437111}
+  - component: {fileID: 1805437113}
   m_Layer: 0
   m_Name: Cube.003 (108)
   m_TagString: Muro
@@ -20168,12 +22588,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1805437113
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1805437107}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1837502788
 GameObject:
   m_ObjectHideFlags: 0
@@ -20186,6 +22627,7 @@ GameObject:
   - component: {fileID: 1837502791}
   - component: {fileID: 1837502790}
   - component: {fileID: 1837502792}
+  - component: {fileID: 1837502794}
   m_Layer: 0
   m_Name: Cube.003 (6)
   m_TagString: Muro
@@ -20273,6 +22715,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1837502794
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837502788}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -20291,6 +22754,7 @@ GameObject:
   - component: {fileID: 1858461347}
   - component: {fileID: 1858461346}
   - component: {fileID: 1858461348}
+  - component: {fileID: 1858461350}
   m_Layer: 0
   m_Name: Cube.003 (67)
   m_TagString: Muro
@@ -20378,6 +22842,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1858461350
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858461344}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -20396,6 +22881,7 @@ GameObject:
   - component: {fileID: 1865341757}
   - component: {fileID: 1865341756}
   - component: {fileID: 1865341758}
+  - component: {fileID: 1865341760}
   m_Layer: 0
   m_Name: Cube.003 (46)
   m_TagString: Muro
@@ -20483,12 +22969,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1865341760
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865341754}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1001 &1867550362
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20743,6 +23250,7 @@ GameObject:
   - component: {fileID: 1916130305}
   - component: {fileID: 1916130304}
   - component: {fileID: 1916130306}
+  - component: {fileID: 1916130308}
   m_Layer: 0
   m_Name: Cube.003 (121)
   m_TagString: Muro
@@ -20830,12 +23338,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1916130308
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916130302}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1921660287
 GameObject:
   m_ObjectHideFlags: 0
@@ -21018,6 +23547,7 @@ GameObject:
   - component: {fileID: 1931150124}
   - component: {fileID: 1931150123}
   - component: {fileID: 1931150125}
+  - component: {fileID: 1931150127}
   m_Layer: 0
   m_Name: Cube.003 (58)
   m_TagString: Muro
@@ -21105,12 +23635,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &1931150127
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931150121}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &1936366742
 GameObject:
   m_ObjectHideFlags: 0
@@ -21123,6 +23674,7 @@ GameObject:
   - component: {fileID: 1936366745}
   - component: {fileID: 1936366744}
   - component: {fileID: 1936366746}
+  - component: {fileID: 1936366748}
   m_Layer: 0
   m_Name: Cube.003 (112)
   m_TagString: Muro
@@ -21210,12 +23762,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1936366748
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1936366742}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1952214288
 GameObject:
   m_ObjectHideFlags: 0
@@ -21228,6 +23801,7 @@ GameObject:
   - component: {fileID: 1952214291}
   - component: {fileID: 1952214290}
   - component: {fileID: 1952214292}
+  - component: {fileID: 1952214294}
   m_Layer: 0
   m_Name: Cube.003 (64)
   m_TagString: Muro
@@ -21315,12 +23889,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1952214294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952214288}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &1955342024
 GameObject:
   m_ObjectHideFlags: 0
@@ -21333,6 +23928,7 @@ GameObject:
   - component: {fileID: 1955342027}
   - component: {fileID: 1955342026}
   - component: {fileID: 1955342028}
+  - component: {fileID: 1955342030}
   m_Layer: 0
   m_Name: Cube.003 (7)
   m_TagString: Muro
@@ -21420,6 +24016,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1955342030
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955342024}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -21438,6 +24055,7 @@ GameObject:
   - component: {fileID: 1965893766}
   - component: {fileID: 1965893765}
   - component: {fileID: 1965893767}
+  - component: {fileID: 1965893769}
   m_Layer: 0
   m_Name: Cube.003 (1)
   m_TagString: Muro
@@ -21525,12 +24143,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &1965893769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965893763}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &1971384224
 GameObject:
   m_ObjectHideFlags: 0
@@ -21545,7 +24184,7 @@ GameObject:
   - component: {fileID: 1971384225}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21565,7 +24204,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -21648,6 +24287,7 @@ GameObject:
   - component: {fileID: 1977828908}
   - component: {fileID: 1977828907}
   - component: {fileID: 1977828909}
+  - component: {fileID: 1977828911}
   m_Layer: 0
   m_Name: Cube.003 (123)
   m_TagString: Muro
@@ -21735,6 +24375,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &1977828911
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977828905}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -21783,6 +24444,7 @@ GameObject:
   - component: {fileID: 2007133258}
   - component: {fileID: 2007133257}
   - component: {fileID: 2007133259}
+  - component: {fileID: 2007133261}
   m_Layer: 0
   m_Name: Cube.003 (47)
   m_TagString: Muro
@@ -21870,12 +24532,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.08456127, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &2007133261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2007133255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &2010375149
 GameObject:
   m_ObjectHideFlags: 0
@@ -21998,6 +24681,7 @@ GameObject:
   - component: {fileID: 2019557911}
   - component: {fileID: 2019557910}
   - component: {fileID: 2019557912}
+  - component: {fileID: 2019557914}
   m_Layer: 0
   m_Name: Cube.003 (102)
   m_TagString: Muro
@@ -22085,6 +24769,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &2019557914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019557908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -22103,6 +24808,7 @@ GameObject:
   - component: {fileID: 2019595169}
   - component: {fileID: 2019595168}
   - component: {fileID: 2019595170}
+  - component: {fileID: 2019595172}
   m_Layer: 0
   m_Name: Cube.003 (118)
   m_TagString: Muro
@@ -22190,6 +24896,27 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395183, z: -0.000000004991019}
+--- !u!65 &2019595172
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019595166}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
@@ -22208,6 +24935,7 @@ GameObject:
   - component: {fileID: 2029128949}
   - component: {fileID: 2029128948}
   - component: {fileID: 2029128950}
+  - component: {fileID: 2029128952}
   m_Layer: 0
   m_Name: Cube.003 (75)
   m_TagString: Muro
@@ -22295,12 +25023,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561154, y: 0.22395204, z: -0.0000000041909516}
+--- !u!65 &2029128952
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029128946}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561035, y: 0.22395204, z: -0.0000000041909516}
 --- !u!1 &2034044527
 GameObject:
   m_ObjectHideFlags: 0
@@ -22313,6 +25062,7 @@ GameObject:
   - component: {fileID: 2034044530}
   - component: {fileID: 2034044529}
   - component: {fileID: 2034044531}
+  - component: {fileID: 2034044533}
   m_Layer: 0
   m_Name: Cube.003 (110)
   m_TagString: Muro
@@ -22400,12 +25150,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395204, z: -4.656612e-10}
+--- !u!65 &2034044533
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2034044527}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561095, y: 0.22395204, z: -4.656612e-10}
 --- !u!1 &2043438343
 GameObject:
   m_ObjectHideFlags: 0
@@ -22552,6 +25323,7 @@ GameObject:
   - component: {fileID: 2045186226}
   - component: {fileID: 2045186225}
   - component: {fileID: 2045186227}
+  - component: {fileID: 2045186229}
   m_Layer: 0
   m_Name: Cube.003 (95)
   m_TagString: Muro
@@ -22625,6 +25397,27 @@ MeshFilter:
   m_GameObject: {fileID: 2045186223}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &2045186227
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2045186223}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.02, z: 0.019999998}
+  m_Center: {x: -0.084561154, y: 0.22395207, z: -0.000000004991019}
+--- !u!65 &2045186229
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22947,6 +25740,7 @@ GameObject:
   - component: {fileID: 2094563732}
   - component: {fileID: 2094563731}
   - component: {fileID: 2094563733}
+  - component: {fileID: 2094563735}
   m_Layer: 0
   m_Name: Cube.003 (13)
   m_TagString: Muro
@@ -23020,6 +25814,27 @@ MeshFilter:
   m_GameObject: {fileID: 2094563729}
   m_Mesh: {fileID: -8678823145569952518, guid: c9ec51d2a239cbb45b717004b973546b, type: 3}
 --- !u!65 &2094563733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094563729}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.08456127, y: 0.22395205, z: -0.0000000041909516}
+--- !u!65 &2094563735
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -23255,7 +26070,7 @@ GameObject:
   - component: {fileID: 2103373948}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: Muro
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23290,7 +26105,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -23358,6 +26173,7 @@ GameObject:
   - component: {fileID: 2117217688}
   - component: {fileID: 2117217687}
   - component: {fileID: 2117217689}
+  - component: {fileID: 2117217691}
   m_Layer: 0
   m_Name: Cube.003 (16)
   m_TagString: Muro
@@ -23445,12 +26261,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395203, z: -0.0000000041909516}
+--- !u!65 &2117217691
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117217685}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395203, z: -0.0000000041909516}
 --- !u!1 &2126148021
 GameObject:
   m_ObjectHideFlags: 0
@@ -23628,6 +26465,7 @@ GameObject:
   - component: {fileID: 2140346998}
   - component: {fileID: 2140346997}
   - component: {fileID: 2140346999}
+  - component: {fileID: 2140347001}
   m_Layer: 0
   m_Name: Cube.003 (23)
   m_TagString: Muro
@@ -23715,12 +26553,33 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
   m_Center: {x: -0.084561214, y: 0.22395198, z: -0.0000000041909516}
+--- !u!65 &2140347001
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140346995}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.042885616, y: 0.019999992, z: 0.019999996}
+  m_Center: {x: -0.084561154, y: 0.22395198, z: -0.0000000041909516}
 --- !u!33 &871381606772099847
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -23887,9 +26746,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1986566618}
     - target: {fileID: 7657433909209585956, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: shootRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7657433909209585956, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: efectoDisparo
       value: 
       objectReference: {fileID: 1000010823978654, guid: 3228a22491941734bb83ad691d17fcb9, type: 3}
+    - target: {fileID: 7657433909209585956, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: enemyLayer.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 9087828964482830534, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: m_IsTrigger
       value: 1

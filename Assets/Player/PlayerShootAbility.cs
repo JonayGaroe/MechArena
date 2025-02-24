@@ -16,11 +16,8 @@ public class PlayerShootAbility : MonoBehaviour
     private Animator animator;
 
     public GameObject efectoDisparo;
-    public float detectionRadius = 10f; // Radio para detectar enemigos
-    public LayerMask enemyLayer; // Capa de los enemigos
-    public string enemyTag = "Enemy"; // Tag de los enemigos
-    public float trackingStrength = 5f; // Intensidad de seguimiento al enemigo
-
+ 
+  
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -62,10 +59,7 @@ public class PlayerShootAbility : MonoBehaviour
         GameObject bullet = GenericPool.Instance.GetBullet(cannon.position, cannon.rotation * Quaternion.Euler(90, 180, 0));
         BulletBehaviour bulletScript = bullet.GetComponent<BulletBehaviour>();
 
-        if (bulletScript != null)
-        {
-            bulletScript.SetBulletProperties(detectionRadius, enemyLayer, enemyTag, trackingStrength);
-        }
+       
     }
 
     private bool IsPointerOverUI()

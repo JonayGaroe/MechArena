@@ -30,7 +30,7 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      
+
 
         EnemiesContainers.instance.AddEnemie();
 
@@ -47,7 +47,7 @@ public class EnemyController : MonoBehaviour
 
     public void SumarPuntos(int cantidad)
     {
-       
+
 
         puntos += cantidad;
 
@@ -72,7 +72,7 @@ public class EnemyController : MonoBehaviour
             Destroy(explosion, 2f); // Destruye la explosión después de 2 segundos
 
             Destroy(gameObject);
-            Destroy(other.gameObject);  
+            Destroy(other.gameObject);
 
             GameController.instance.AgregarPuntos(puntos); // Añadir puntos al controlador de puntuación
 
@@ -104,10 +104,11 @@ public class EnemyController : MonoBehaviour
 }
 
 
-    //para que se pare la musica
-    //   AudioSource audioSource = GetComponent<AudioSource>();
 
-    //if (audioSource != null && audioSource.isPlaying)
-    //  {
-    //   audioSource.Stop();
-    // }
+//para que se pare la musica
+//   AudioSource audioSource = GetComponent<AudioSource>();
+
+//if (audioSource != null && audioSource.isPlaying)
+//  {
+//   audioSource.Stop();
+// }

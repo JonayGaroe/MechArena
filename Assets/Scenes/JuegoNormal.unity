@@ -7721,7 +7721,7 @@ GameObject:
   - component: {fileID: 616204055}
   m_Layer: 0
   m_Name: Trail
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26681,6 +26681,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2115451593677632070, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 2451029579613364129, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: m_LocalPosition.x
       value: -266.8
@@ -26733,6 +26737,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8bd8b6b396742264db990d4ae2ffdb88, type: 2}
+    - target: {fileID: 6088187278548599942, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 6797299428644476314, guid: 7eb751a6ec68ecf4685e8b0608859500, type: 3}
       propertyPath: m_Enabled
       value: 1

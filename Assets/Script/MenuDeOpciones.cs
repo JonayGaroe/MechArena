@@ -4,6 +4,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class MenuDeOpciones : MonoBehaviour
 {
     float tiempoDePartida = 0.0f;
@@ -132,7 +133,16 @@ public class MenuDeOpciones : MonoBehaviour
 
     }
 
+    public void Replay()
+    {
 
+
+        SceneManager.LoadScene("JuegoNormal"); // Cargar la Scena del nombre ejemplo SampleScene
+
+
+
+
+    }
 
     public void BotonSalir()
     {

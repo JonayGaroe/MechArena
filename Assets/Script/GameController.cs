@@ -8,6 +8,8 @@ public class GameController : MonoBehaviour
 {
     public static GameController instance; // Singleton para acceder a la instancia global
     public TextMeshProUGUI textoPuntos; // El texto de la UI donde se mostrará el puntaje
+    public TextMeshProUGUI textoPuntos2; // El texto de la UI donde se mostrará el puntaje
+
     public TextMeshProUGUI textoMayorPuntuacion;// El texto de la UI donde se mostrará el mayor puntaje
     private int puntosTotales = 0; // Puntaje total del jugador
     private int mayorPuntuacion = 0; // Mayor puntuación registrada
@@ -89,6 +91,8 @@ public class GameController : MonoBehaviour
     {
         //  Debug.Log("llamado a actuguardarpuntos");
         textoPuntos.text = "Puntos: " + puntosTotales;
+        textoPuntos2.text = "Puntos: " + puntosTotales;
+
     }
 
     // Actualiza el texto que muestra la mayor puntuación

@@ -117,11 +117,13 @@ public class BulletBehaviour : MonoBehaviour
     {
         if (other.CompareTag(enemyTag) || other.CompareTag("Muro"))
         {
-            gameObject.SetActive(false);
+           // gameObject.SetActive(false);
             GameController.instance.DescontarPuntos(puntosPerdidos);
             GameObject explosion = Instantiate(efectoExplosionMuro, transform.position, Quaternion.identity);
             Destroy(explosion, 2f);
-           // AudioSource.PlayClipAtPoint(falloMuro, transform.position);
+            // AudioSource.PlayClipAtPoint(falloMuro, transform.position);
+            GenericPool.Instance.ReturnBullet(gameObject);
+
 
         }
     }

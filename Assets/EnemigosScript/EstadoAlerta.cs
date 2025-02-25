@@ -19,6 +19,8 @@ public class EstadoAlerta : MonoBehaviour
 
    private ControladorNavMesh controladorNavMesh;
 
+    public AudioClip sonidoAlerta;
+
 
 
     void Awake()
@@ -58,6 +60,7 @@ public class EstadoAlerta : MonoBehaviour
 
     void Update()
     {
+        AudioSource.PlayClipAtPoint(sonidoAlerta, transform.position);
 
 
         RaycastHit hit;

@@ -13,7 +13,8 @@ public class EstadoPersecucion : MonoBehaviour
     private ControladorVision controladorVision;
 
     private ControladorNavMesh controladorNavMesh;
-
+    //
+    public AudioClip sonidoPersecucion;
 
 
 
@@ -53,6 +54,8 @@ public class EstadoPersecucion : MonoBehaviour
 
     void Update()
     {
+
+        AudioSource.PlayClipAtPoint(sonidoPersecucion, transform.position);
 
 
         RaycastHit hit;

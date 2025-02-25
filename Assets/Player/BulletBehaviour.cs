@@ -11,6 +11,11 @@ public class BulletBehaviour : MonoBehaviour
     public float detectionRadius = 20f;
     public float trackingStrength = 40f;
 
+    // Musica
+    public AudioClip falloMuro;
+
+
+
     // Se definen manualmente el tag y la layer para los enemigos.
     public string enemyTag = "Enemy";
     public LayerMask enemyLayer;
@@ -116,6 +121,8 @@ public class BulletBehaviour : MonoBehaviour
             GameController.instance.DescontarPuntos(puntosPerdidos);
             GameObject explosion = Instantiate(efectoExplosionMuro, transform.position, Quaternion.identity);
             Destroy(explosion, 2f);
+           // AudioSource.PlayClipAtPoint(falloMuro, transform.position);
+
         }
     }
 }

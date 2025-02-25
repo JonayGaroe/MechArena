@@ -19,6 +19,7 @@ public class GameController : MonoBehaviour
     private bool puntosDoblesActivos = false; // Si los puntos dobles están activos
     private float tiempoRestante = 0f; // Tiempo restante de los puntos dobles
 
+
     private void Awake()
     {
         // Asegurarse de que solo haya una instancia del controlador de juego

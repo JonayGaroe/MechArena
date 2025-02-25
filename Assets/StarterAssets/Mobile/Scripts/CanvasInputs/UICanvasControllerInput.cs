@@ -27,7 +27,20 @@ namespace StarterAssets
         {
             starterAssetsInputs.SprintInput(virtualSprintState);
         }
-        
-    }
 
+        // ?? NUEVO: Método para capturar el disparo
+        public void VirtualShootInput(bool virtualShootState)
+        {
+            if (starterAssetsInputs != null)
+            {
+                starterAssetsInputs.ShootInput(virtualShootState);
+            }
+            else
+            {
+          
+            }
+
+        }
+
+    }
 }

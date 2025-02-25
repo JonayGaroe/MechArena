@@ -17,6 +17,9 @@ public class EstadoPatrulla : MonoBehaviour
 
     private ControladorVision controladorVision;
 
+    public AudioClip sonidoPatrulla;
+
+
     //
 
     // Start is called before the first frame update
@@ -34,8 +37,9 @@ public class EstadoPatrulla : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-            RaycastHit hit;
+        //AudioSource.PlayClipAtPoint(sonidoPatrulla, transform.position);
+
+        RaycastHit hit;
             if(controladorVision.PuedeVerAlJugador(out hit))
             {
 

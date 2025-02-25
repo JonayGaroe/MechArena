@@ -36,6 +36,7 @@ public class PlayerController : MonoBehaviour
             moveDirection += right;
         }
 
+
         transform.position += moveDirection.normalized * moveSpeed * Time.deltaTime;
 
         // Rotación con el ratón

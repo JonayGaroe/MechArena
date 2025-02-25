@@ -24,7 +24,7 @@ public class MenuDeOpciones : MonoBehaviour
 
     bool isPause;
     float tiempoRestante = 420f; // 7 minutos en segundos
-    bool partidaEnCurso = true;
+    public bool partidaEnCurso = true;
 
     void Awake()
     {

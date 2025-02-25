@@ -21,6 +21,8 @@ public class EnemyController : MonoBehaviour
     public int puntos = 2; // Puntos que otorga este enemigo cuando es destruido
 
 
+    public AudioClip matarEnemigo;
+
 
     //  public ParticleSystem smokeEffect;
     // Private variables
@@ -76,6 +78,7 @@ public class EnemyController : MonoBehaviour
 
             GameController.instance.AgregarPuntos(puntos); // Añadir puntos al controlador de puntuación
 
+            AudioSource.PlayClipAtPoint(matarEnemigo, transform.position);
 
 
 

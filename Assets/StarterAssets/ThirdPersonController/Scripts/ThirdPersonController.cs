@@ -112,6 +112,10 @@ namespace StarterAssets
 
         private bool _hasAnimator;
 
+        //music
+        public AudioClip movementMusic;
+
+
         private bool IsCurrentDeviceMouse
         {
             get
@@ -161,6 +165,7 @@ namespace StarterAssets
             JumpAndGravity();
             GroundedCheck();
             Move();
+
         }
 
         private void LateUpdate()
@@ -215,6 +220,8 @@ namespace StarterAssets
 
         private void Move()
         {
+            //AudioSource.PlayClipAtPoint(movementMusic, transform.position);
+
             float targetSpeed = _input.sprint ? SprintSpeed : MoveSpeed;
             if (_input.move == Vector2.zero) targetSpeed = 0.0f;
 

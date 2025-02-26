@@ -47,7 +47,7 @@ public class PlayerShootAbility : MonoBehaviour
         {
             Shoot();
         }
-        
+
         /* if (startetinput.shoot && Time.time >= nextFireTime && !IsPointerOverUI())
          {
              Shoot();
@@ -74,12 +74,14 @@ public class PlayerShootAbility : MonoBehaviour
 
 
                 }*/
+        
+
         startetinput.shoot = false;
     }
 
     private void Shoot()
     {
-        
+
         if (startetinput.shoot && Time.time >= nextFireTime)
         {
             FireBullet(leftCannon);
@@ -113,8 +115,13 @@ public class PlayerShootAbility : MonoBehaviour
     {
         GameObject bullet = GenericPool.Instance.GetBullet(cannon.position, cannon.rotation * Quaternion.Euler(90, 180, 0));
         BulletBehaviour bulletScript = bullet.GetComponent<BulletBehaviour>();
+        if(CameraShake.Instance != null)
+{
+            Debug.Log("Shake Activado con Impulse Source.");
+            CameraShake.Instance.Shake(2f); // Ajusta la fuerza según sea necesario
+        }
 
-       
+
     }
 
     /*private bool IsPointerOverUI()

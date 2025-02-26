@@ -110,6 +110,9 @@ public class MenuDeOpciones : MonoBehaviour
 
     }
 
+
+
+
     public void BotonPlay()
     {
         partidaEnCurso = true;
@@ -125,7 +128,7 @@ public class MenuDeOpciones : MonoBehaviour
 
     public void Menu()
     {
-
+        Time.timeScale = 0;
         canvasSetting.SetActive(false);
         canvasAjustes.SetActive(true);
 

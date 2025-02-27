@@ -23,6 +23,16 @@ public class EnemyController : MonoBehaviour
 
     public AudioClip matarEnemigo;
 
+    //PowerUp
+
+    public GameObject prefabPowerUp; // Prefab del power-up
+
+    public float probabilidadPowerUp = 0.8f; // Probabilidad de que salga un power-up (20%)
+
+    public GameObject prefabPowerUp2; // Prefab del power-up
+
+    public float probabilidadPowerUp2 = 0.8f; // Probabilidad de que salga un power-up (20%)
+
 
     //  public ParticleSystem smokeEffect;
     // Private variables
@@ -80,9 +90,25 @@ public class EnemyController : MonoBehaviour
 
             AudioSource.PlayClipAtPoint(matarEnemigo, transform.position);
 
+              if (Random.value<probabilidadPowerUp)
+              {
+
+
+              
+               // Instanciamos el power-up en la posición del objeto (enemigo)
+                 Instantiate(prefabPowerUp, transform.position, Quaternion.identity);
+
+              }
+
+            if (Random.value < probabilidadPowerUp2)
+            {
 
 
 
+                // Instanciamos el power-up en la posición del objeto (enemigo)
+                Instantiate(prefabPowerUp2, transform.position, Quaternion.identity);
+
+            }
 
 
         }

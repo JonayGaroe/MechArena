@@ -9,6 +9,8 @@ using UnityEngine.EventSystems;
 
 public class PlayerShootAbility : MonoBehaviour
 {
+    public static PlayerShootAbility instance { get; private set; }
+
 
     // Referencias a los cañones izquierdo y derecho desde donde se disparan las balas
     public Transform leftCannon;
@@ -32,16 +34,70 @@ public class PlayerShootAbility : MonoBehaviour
     private StarterAssetsInputs startetinput;
     private UICanvasControllerInput inputController;
 
+    // gasto energia
+    private EnergySystem EnergiaGasto;
+
+    // energia
+
+    public float gastoDeDisparo = 33f;
+    public float disparoTotal = 100f;
+    public float recuperando = 3f;
+
+    public float duracionEfecto = 30f;
+
+
+    bool power1 = false;
+
+    bool power2 = false;
+
+
+    void Awake()
+    {
+
+        instance = this;
+
+
+
+    }
+
+
+
     private void Start()
     {
         // Se obtienen los componentes necesarios al inicio del juego
         animator = GetComponent<Animator>();
         startetinput = GetComponent<StarterAssetsInputs>();
         inputController = GetComponent<UICanvasControllerInput>();
+        EnergiaGasto = GetComponent<EnergySystem>();
+
+
+        disparoTotal = 100f;
+
+
     }
 
     private void Update()
     {
+        if (power1 == true)
+        {
+            CanShoot();
+
+
+        }
+        if (power2 == true)
+        {
+           
+         
+
+              CanShoot();
+
+
+
+       //  
+        }
+        
+
+
         // Verifica si la partida está en curso antes de permitir disparar
         if (MenuDeOpciones.Instance.partidaEnCurso == false)
         {
@@ -54,43 +110,62 @@ public class PlayerShootAbility : MonoBehaviour
 
         // Reinicia la entrada del disparo después de procesarla
         startetinput.shoot = false;
+
+
+
+       
+
     }
+
+
+
 
     private void Shoot()
     {
         // Verifica si el jugador ha presionado el botón de disparo y si ha pasado el tiempo necesario para disparar de nuevo
         if (startetinput.shoot && Time.time >= nextFireTime)
         {
-            // Dispara desde ambos cañones
-            FireBullet(leftCannon);
-            FireBullet(rightCannon);
 
-            // Se podría reproducir el sonido de disparo aquí (descomentando la línea siguiente)
-            // AudioSource.PlayClipAtPoint(musicaDisparo, transform.position);
-
-            // Si hay un efecto de disparo (muzzle flash), se instancia en ambos cañones
-            if (efectoDisparo != null)
+            if (disparoTotal >= gastoDeDisparo)
             {
-                GameObject flash1 = Instantiate(efectoDisparo, leftCannon.position, leftCannon.rotation);
-                GameObject flash2 = Instantiate(efectoDisparo, rightCannon.position, rightCannon.rotation);
 
-                // Se destruyen los efectos después de 0.2 segundos para evitar que queden en la escena
-                Destroy(flash1, 0.2f);
-                Destroy(flash2, 0.2f);
+
+                EnergySystem.instance.GastoEnergia();
+
+
+
+                // Dispara desde ambos cañones
+                FireBullet(leftCannon);
+                FireBullet(rightCannon);
+
+                // Se podría reproducir el sonido de disparo aquí (descomentando la línea siguiente)
+                // AudioSource.PlayClipAtPoint(musicaDisparo, transform.position);
+
+                // Si hay un efecto de disparo (muzzle flash), se instancia en ambos cañones
+                if (efectoDisparo != null)
+                {
+                    GameObject flash1 = Instantiate(efectoDisparo, leftCannon.position, leftCannon.rotation);
+                    GameObject flash2 = Instantiate(efectoDisparo, rightCannon.position, rightCannon.rotation);
+
+                    // Se destruyen los efectos después de 0.2 segundos para evitar que queden en la escena
+                    Destroy(flash1, 0.2f);
+                    Destroy(flash2, 0.2f);
+                }
+
+                // Activa la animación de disparo si existe un Animator asignado
+                if (animator != null)
+                {
+                    animator.SetTrigger("Shoot1");
+                    animator.SetTrigger("Shoot2");
+
+                    // Se podría reproducir el sonido de recarga aquí (descomentando la línea siguiente)
+                    // AudioSource.PlayClipAtPoint(musicaRecarga, transform.position);
+
+                }
+
+                // Se actualiza el tiempo para el siguiente disparo
+                nextFireTime = Time.time + fireRate;
             }
-
-            // Activa la animación de disparo si existe un Animator asignado
-            if (animator != null)
-            {
-                animator.SetTrigger("Shoot1");
-                animator.SetTrigger("Shoot2");
-
-                // Se podría reproducir el sonido de recarga aquí (descomentando la línea siguiente)
-                // AudioSource.PlayClipAtPoint(musicaRecarga, transform.position);
-            }
-
-            // Se actualiza el tiempo para el siguiente disparo
-            nextFireTime = Time.time + fireRate;
         }
     }
 
@@ -108,5 +183,49 @@ public class PlayerShootAbility : MonoBehaviour
             Debug.Log("Shake Activado con Impulse Source.");
             CameraShake.Instance.Shake(2f); // Ajusta la intensidad de la sacudida de cámara
         }
+
     }
+
+
+    public void CanShoot()
+    {
+
+        disparoTotal = 100;
+        power1 = false;
+
+    }
+
+
+    public void PowerUp()
+    {
+        power2 = true ;
+
+
+
+
+
+
+    }
+
+   public void PowerUp2()
+   {
+
+        power2 = false;
+
+
+
+
+   }
+    public void recuperarvida()
+    {
+
+        
+
+
+
+    }
+
+
+
+
 }

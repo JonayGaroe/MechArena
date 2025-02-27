@@ -30,7 +30,7 @@ public class EnemiesContainers : MonoBehaviour
     void Start()
     {
 
-        enemigosBroken = 6;
+        enemigosBroken = 3;
         enemyFix = 0;
         
 
